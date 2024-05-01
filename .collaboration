@@ -166,7 +166,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-02T08:41:47.7290941+09:00",
+    "LockDateTime": "2024-05-02T08:41:57.3373382+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -177,7 +177,18 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-02T08:41:47.7289093+09:00",
+    "LockDateTime": "2024-05-02T08:41:57.3373521+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/자재",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-02T08:41:57.3373301+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
