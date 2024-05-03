@@ -271,5 +271,15 @@
     },
     "LockDateTime": "2024-05-03T13:19:27.2139967+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/근태",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-03T13:23:46.5468864+09:00",
+    "ModuleType": 1
   }
 ]
