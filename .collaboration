@@ -232,5 +232,15 @@
     },
     "LockDateTime": "2024-05-03T13:14:06.4782488+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/자산등록",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-03T13:14:46.9743357+09:00",
+    "ModuleType": 1
   }
 ]
