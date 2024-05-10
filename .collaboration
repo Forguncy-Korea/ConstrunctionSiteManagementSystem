@@ -341,5 +341,15 @@
     "LockDateTime": "2024-05-03T14:11:52.2387699+09:00",
     "ModuleType": 23,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/23.01",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-10T13:37:32.7011062+09:00",
+    "ModuleType": 1
   }
 ]
