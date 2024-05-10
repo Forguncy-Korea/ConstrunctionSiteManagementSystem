@@ -341,5 +341,15 @@
     },
     "LockDateTime": "2024-05-10T13:37:49.9779462+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/자재사용",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-05-10T13:52:48.8479544+09:00",
+    "ModuleType": 1
   }
 ]
