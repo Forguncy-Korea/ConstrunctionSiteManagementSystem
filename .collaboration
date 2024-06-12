@@ -312,13 +312,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/근태체크",
+    "ModuleName": "PCPage/출역체크",
     "State": 3,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T13:25:36.8748796+09:00",
+    "LockDateTime": "2024-06-12T11:14:54.8762637+09:00",
     "ModuleType": 1
   },
   {
