@@ -184,7 +184,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T14:11:52.2387794+09:00",
+    "LockDateTime": "2024-06-12T11:10:38.0769092+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -195,7 +195,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T14:11:52.2387814+09:00",
+    "LockDateTime": "2024-06-12T11:10:38.0769116+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -206,7 +206,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T14:11:52.2387829+09:00",
+    "LockDateTime": "2024-06-12T11:10:38.0769131+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -217,7 +217,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T14:11:52.238785+09:00",
+    "LockDateTime": "2024-06-12T11:10:38.0769153+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -328,7 +328,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T14:11:52.2387699+09:00",
+    "LockDateTime": "2024-06-12T11:10:38.076917+09:00",
     "ModuleType": 23,
     "ExclusiveType": 0
   },
@@ -361,5 +361,16 @@
     },
     "LockDateTime": "2024-06-07T13:49:59.1581529+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/출역확인",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-12T11:10:38.0768967+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
