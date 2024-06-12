@@ -1,5 +1,87 @@
 {
-  "Name": "자산",
+  "Name": "공사일지",
+  "FlowProcess": {
+    "IsEnabled": true,
+    "FlowStates": [
+      {
+        "StateName": "새로 만들기",
+        "Id": "cbc8e5c5-1b8f-4709-b714-7d203221d315"
+      },
+      {
+        "StateName": "승인 대기",
+        "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10"
+      },
+      {
+        "StateName": "승인됨",
+        "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048"
+      }
+    ],
+    "FlowPaths": [
+      {
+        "ToState": {
+          "StateName": "승인 대기",
+          "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": [],
+        "StartState": {
+          "StateName": "새로 만들기",
+          "Id": "cbc8e5c5-1b8f-4709-b714-7d203221d315"
+        },
+        "Action": {
+          "ActionName": "제출",
+          "GUID": "e3ab8a28-8288-42dd-9aa9-c28b05a7076b"
+        }
+      },
+      {
+        "ToState": {
+          "StateName": "승인됨",
+          "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": [],
+        "StartState": {
+          "StateName": "승인 대기",
+          "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10"
+        },
+        "Action": {
+          "ActionName": "승인",
+          "GUID": "ecb1a62d-53ed-48af-ad85-453e3123e280"
+        }
+      },
+      {
+        "ToState": {
+          "StateName": "새로 만들기",
+          "Id": "cbc8e5c5-1b8f-4709-b714-7d203221d315"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": [],
+        "StartState": {
+          "StateName": "승인 대기",
+          "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10"
+        },
+        "Action": {
+          "ActionName": "거부",
+          "GUID": "0ca2e4b4-8a17-4348-acef-a1575b07ec1b"
+        }
+      }
+    ]
+  },
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -14,43 +96,49 @@
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.Int64",
-      "Name": "관리번호",
+      "Name": "현장",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "Name": "사원번호",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "자산명",
+      "Name": "금일",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "자산분류",
+      "Name": "누계",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "구매일",
+      "Name": "직원",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "시리얼넘버",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.ImageBindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "자산사진",
+      "Name": "작업반장",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
-      "Name": "배정현장",
+      "Name": "FGC_State",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "Name": "FGC_AssignTo",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
@@ -83,8 +171,19 @@
       "PrimaryTable": "현장",
       "PrimaryColumn": "현장번호",
       "ForeignSchema": null,
-      "ForeignTable": "자산",
-      "ForeignColumn": "배정현장",
+      "ForeignTable": "공사일지",
+      "ForeignColumn": "현장",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "근로자",
+      "PrimaryColumn": "사원번호",
+      "ForeignSchema": null,
+      "ForeignTable": "공사일지",
+      "ForeignColumn": "사원번호",
       "RelationTypeOnDelete": 0,
       "RelationTypeOnUpdate": 0,
       "IsDetailTableRelation": false

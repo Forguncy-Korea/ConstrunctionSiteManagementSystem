@@ -95,5 +95,17 @@
   "PrimaryKey": [
     "ID"
   ],
-  "Relations": []
+  "Relations": [
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "현장",
+      "PrimaryColumn": "현장번호",
+      "ForeignSchema": null,
+      "ForeignTable": "근로자",
+      "ForeignColumn": "배정현장",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    }
+  ]
 }

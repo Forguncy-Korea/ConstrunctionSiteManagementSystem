@@ -19,6 +19,7 @@
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
       "Name": "이름",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -33,6 +34,18 @@
       "DatabaseColumnType": "System.String",
       "Name": "출역여부",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "Name": "주간근무",
+      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "Name": "연장근무",
+      "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
@@ -58,5 +71,17 @@
   "PrimaryKey": [
     "ID"
   ],
-  "Relations": []
+  "Relations": [
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "근로자",
+      "PrimaryColumn": "사원번호",
+      "ForeignSchema": null,
+      "ForeignTable": "출역",
+      "ForeignColumn": "사원번호",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    }
+  ]
 }

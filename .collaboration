@@ -157,62 +157,22 @@
   },
   {
     "ModuleName": "Table/근로자",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641696+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\근로자.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/자산",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641707+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\자산.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/자재",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641717+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\자재.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/현장",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641731+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\현장.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -257,16 +217,7 @@
   },
   {
     "ModuleName": "PCPage/공사일보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:16:14.839552+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\공사일보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/자재사용",
@@ -284,17 +235,7 @@
   },
   {
     "ModuleName": "Table/출역",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641739+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\출역.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -303,12 +244,6 @@
   },
   {
     "ModuleName": "Table/공사일지",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T14:09:22.4641649+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
