@@ -1,0 +1,133 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,2": "현장개설페이지",
+    "4,2": "현장명",
+    "4,20": "소장",
+    "6,2": "현장주소",
+    "6,7": "주소로 검색하기",
+    "6,20": "개설일",
+    "8,2": "지도",
+    "19,2": "저장"
+  },
+  "AttachInfos": {
+    "4,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "4,25": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "6,7": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "주소로 검색하기",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "6,25": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "19,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "저장",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,7": 0,
+      "4,25": 0,
+      "5,9": 1,
+      "19,2": 2,
+      "19,3": 1,
+      "19,4": 1,
+      "19,5": 1,
+      "20,2": 1,
+      "20,3": 1,
+      "20,4": 1,
+      "20,5": 1,
+      "21,2": 1,
+      "21,3": 1,
+      "21,4": 1,
+      "21,5": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "4,7,1,8",
+    "6,7,1,8",
+    "4,25,1,6",
+    "6,25,1,6",
+    "19,2,3,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//pWe4zly8t4BBhEfk+/D1Qe2DlnrbMLEzetwggGTxRdVKFakHkMrR/Pj6ChLfN0k9vsjR3gMBID1YTwmpiHaMMirBqQ1cE2xA2L4TE4lZmwdmd7nTGFjgQ0P7rh17/IvOyDfolX5Dz6hIwGurIzW5IULXLq5Ao9X38hE7m5LMDDqzbtdGSnk3Zq3MlfUg1HbtA9CG6QpvWxAT50O4dqJNyiP3082nb5isim+5otZB/YWWhYXfdVon/2plhUSjty9bSGVkfczfUTCGCUS6Tnot5mXugsMIAwukuFvwjrosQ9/w/YGSb2/ZNcAMTDMbXi/5oclBxlqPUdWnLHVHdKH1lQVKTX5fR3r404BfN/EVAq3Ie7ZuHLqIVc8oKq584kEHISVXkwDfJIlrMXAZ4Tug0pC2zksAKPXp0SGMWdDIsxSR6qMZjsD22tGDEVHTEwLJOQtp321mDDzHYVYaalWIsLmNdUXDZF5Ohwjdc0/jXM2BkxC0YE3atdF2QA/nr624la1R10c7mM3jCz3SNE+IhO9FeAxKWr7lkgZZ+KAPIqs+3COt8b1fUTfiPHAEyttnWcYM374QJrRR05kFGlHeIiIXrXUZDxiFnpKJ4WgXbg7GTiT7FJLgiteHs0YiscpW5MuMO3fIzdWVRWthEdW1hbZCM0P1fc+PP8MdPU51Vkb66gIw0HBQ2zIHuyAEL6ZTc9nRP5ZDqJ4Nu/emqQfuyUn7NogbYgo9ETZFqTEGmkwy8TnNRHQmERtlfm9dbKMtm/z8Tlgr0FZeQUFuzStytP5H0W+hPIEDs+ZLPj1jKZ3pHZ8QPdg6Grmzgm2HLen1LNeaR/G+uyhFJbvY86ncd1GCHB9/DjJ8ZIpgnfAYRttfJrJEBhswsg4WX9QAYuvjItYG+DBUa4cyWyy+dTItDg==|920

@@ -1,0 +1,169 @@
+{
+  "Rows": {
+    "Count": 47
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "출역체크",
+    "4,1": "현장",
+    "4,13": "날짜",
+    "6,36": "검색"
+  },
+  "AttachInfos": {
+    "4,4": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ]
+      }
+    },
+    "4,16": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "리스트뷰1",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
+    },
+    "6,28": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_NewLittleRoundCorner"
+      }
+    },
+    "6,36": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "검색",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "8,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "근로자",
+        "RowIndex": 8,
+        "ColumnIndex": 1,
+        "RowCount": 24,
+        "ColumnCount": 39,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "6,28": 0,
+      "6,36": 1,
+      "6,37": 2,
+      "6,38": 2,
+      "6,39": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "4,4,1,7",
+    "4,16,1,6",
+    "10,1,22,39",
+    "6,1,1,9",
+    "6,36,1,4",
+    "6,28,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//RmQQU6mDSxBbwuhXMwlO8VS6dBwIShxeBlmoqwHMYuU35dTGSdKdOlo0zjbFAfYiHDC7fMchLjqQ6gVqXjplzOjQQdPBWPfhqr7TK2y1ARfkdslR9wgCpcLe/fDid6lXAK7p1Ehvqw7xs27awUwI8oKcxtB6ua4Ky7m8tAwSsJCoz3BJMuwzEQQ8RUHqUQzpmLZ07V0KjCSXBfeE64QdwzzwgVSoUgF51rCWP14W3UGwgmdTPavE0JawPLbbr4pNb0akg231h4pxkJJAEMcFs2zhF02b3jN8cHdiELT0MdTw8mxM5elHBoceuYWreXnzsOI3eqUg/HmGSVVtfU4kLqqWbmuFkbRN5sfltmEW2nFv1xHDbY/VHb34MXU1eo1vK3BuaUPmo19kgwzqaCpwg1Lsttcs7W6lygdcmGXuPb0Po3sJLppA30SUOUDD8Yd9u2io/BCzgA4a+cSTOFAZttgVz4uf3yjHdIPOcqG0QHEK51lnZMSOtCDvpeVUt6huHNRwhtO6/FJlETCX7LoL2bKe4TYHzvSoEjyDFPWosy7AulNo1cmEkvfB6X9HenS5xbj4BmWWGwASCr0Gr3EisgBNhdbUbU9vPsXVMi/Qs1n/x+yWFY6OsBUsqvv4OuAc8Y7Q55QyTkMfHZBev0j0aDiVGZSreynnpH+eSqJ0rL0YS5rbesocHjvhhyK+Qib+tooX1Xgjg8OmpsUnxa+DRiiycAjOpxJVeVe9YGm2zUwZ+VHOcSnsYGuN4wjmfHCT8GtStlT7ADctcLhUdeXzz7HCXnq0xTO5B356dVMUP1tCY7EFCDkU1+hQuQKYSJOtONZh8muSYmt47dtzHLbaPxxa69Adroejo8YhrTjIcSOzHeVpVedGcCAw2chOpIIcn924FTqH9TiDkfS0JUOUlQ==|920

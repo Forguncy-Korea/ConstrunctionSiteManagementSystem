@@ -1,0 +1,113 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "출역확인",
+    "3,21": "소속현장"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
+    },
+    "3,26": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ]
+      }
+    },
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "출역",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 24,
+        "ColumnCount": 32,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,1,1,8",
+    "3,26,1,7",
+    "7,1,22,32"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//h0Hutd1xYMv7omQ8+KVqmywAd57S0nP0QswE2A5fRqGWklsTKt14nWk4Ff7wP3vmA3Dj4yEG/Ch6WYnKyg5X20UyYRaETsmjJCxB71W99pxE+/LyL2vjvgXBPaQvuB+bI2Ec/UNP4CH1EcWg88DmODb7KN1ql4M7WASpx2G4UtGvJ2d8CDzk0/4jt3fMB92QVN3MtMGMtTAm6oIxgdj1qrpb+71Ec5Fjk7/BAWwxZ38Wq1S+fxZo16L/CLnO1hJcxl9mw6SpMYFXYdyjCa3JCJDuqbqc5s4gNwLXtQ9GHD1kUHrqMMkJOgTQzm/coklDwRZJImc3CX8WJ28jAjbB5m+eposi1Y4FnqxY683GTQieHICpaFm+/oPbWbrP46D9mwPrO9lq7Cha9hUTR1woXqyhrE7567qALPKmaHrjy/pDBgHtKUOP3p/ZH0LzT4/3YWHjDpgjx4kGR1jgAcJrkJU/kVeRyudxr8xJnXddnDsR62I7IdhkKpN13FEOgEmUaSbkbfdJ0hxvTelth/9HNnIYiEodIZjXXRqwOMci6o6hsuC6+G6BjBsTZuqZ31GqT9MTM9P1MvY5IjKUpM6SxSAM9axHUU6O/nt5J9rlZT1Pk8l7atgcPTTzzvD3CVmNPEaJn5X3VEQao1nLgMz86Cmwk0e7Z7j95GTQwRjhB9Gwf7OCKKzm3a6kAbFKaMJ1/p9H0vTj/4YbiucRE9QEHHRJ2e0THDMLVbRHiYVGZsX4U9YLIAhvGu2Et059tN73jaaQroZCG00uxDcedmM7VVrUY+7JuAHi0oswkacTCeUH7BLuCcuft81UhPRorvb1SqXaHhtqpRmRzwK3QOC23Rfk/eE/nGBGFy+aomeUtZHBZgWC7C871ELs3OVtQe4uzKGgu4uI6q9lfga3ZdlgIQ==|920

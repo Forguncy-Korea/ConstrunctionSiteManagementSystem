@@ -1,4 +1,9 @@
 {
-  "UserJSFileList": [],
+  "UserJSFileList": [
+    {
+      "Name": "https://dapi.kakao.com/v2/maps/sdk.js?appkey=1f438c9d6c27216c750b689f4809c0b3&libraries=services,clusterer,drawing",
+      "IsLink": true
+    }
+  ],
   "UserCSSFileList": []
 }
