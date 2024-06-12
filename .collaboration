@@ -184,7 +184,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-12T11:10:38.0769092+09:00",
+    "LockDateTime": "2024-06-12T11:14:28.759941+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -195,7 +195,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-12T11:10:38.0769116+09:00",
+    "LockDateTime": "2024-06-12T11:14:28.7599442+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -206,7 +206,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-12T11:10:38.0769131+09:00",
+    "LockDateTime": "2024-06-12T11:14:28.7599462+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -217,7 +217,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-12T11:10:38.0769153+09:00",
+    "LockDateTime": "2024-06-12T11:14:28.7599521+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -322,17 +322,6 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "TableView/보기1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-12T11:10:38.076917+09:00",
-    "ModuleType": 23,
-    "ExclusiveType": 0
-  },
-  {
     "ModuleName": "PCPage/공사일보",
     "State": 3,
     "LockedBy": {
@@ -369,7 +358,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-12T11:10:38.0768967+09:00",
+    "LockDateTime": "2024-06-12T11:14:28.759955+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
