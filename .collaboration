@@ -272,13 +272,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/근태확인",
+    "ModuleName": "PCPage/출역확인",
     "State": 3,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-05-03T13:23:59.8591473+09:00",
+    "LockDateTime": "2024-06-12T11:15:34.4777933+09:00",
     "ModuleType": 1
   },
   {
