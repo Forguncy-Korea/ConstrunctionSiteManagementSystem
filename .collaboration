@@ -190,7 +190,16 @@
   },
   {
     "ModuleName": "PCPage/직원등록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1596013+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\직원등록.json"
+    ]
   },
   {
     "ModuleName": "PCPage/현장개설",
@@ -212,7 +221,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-06-17T13:24:11.3050722+09:00",
+    "LockDateTime": "2024-06-18T15:11:14.1597928+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\자산등록.json"
@@ -220,35 +229,107 @@
   },
   {
     "ModuleName": "PCPage/자재등록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1598231+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\자재등록.json"
+    ]
   },
   {
     "ModuleName": "PCPage/출역확인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.159759+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\출역확인.json"
+    ]
   },
   {
     "ModuleName": "PCPage/자산목록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1598042+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\자산목록.json"
+    ]
   },
   {
     "ModuleName": "PCPage/자재목록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1598465+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\자재목록.json"
+    ]
   },
   {
     "ModuleName": "PCPage/직원목록",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1596544+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\직원목록.json"
+    ]
   },
   {
     "ModuleName": "PCPage/출역체크",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1597251+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\출역체크.json"
+    ]
   },
   {
     "ModuleName": "PCPage/공사일보",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1701169+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\공사일보.json"
+    ]
   },
   {
     "ModuleName": "PCPage/자재사용",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:14.1598384+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\자재사용.json"
+    ]
   },
   {
     "ModuleName": "PCPage/페이지2",
