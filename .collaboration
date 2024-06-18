@@ -194,7 +194,16 @@
   },
   {
     "ModuleName": "PCPage/현장개설",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:11:01.88553+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\현장개설.json"
+    ]
   },
   {
     "ModuleName": "PCPage/자산등록",
