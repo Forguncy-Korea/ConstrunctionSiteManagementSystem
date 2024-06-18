@@ -258,7 +258,16 @@
   },
   {
     "ModuleName": "PCPage/Home",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-18T15:10:50.5201322+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Home.json"
+    ]
   },
   {
     "ModuleName": "Table/공사일지",
