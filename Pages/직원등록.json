@@ -1,6 +1,6 @@
 {
   "Rows": {
-    "Count": 45
+    "Count": 47
   },
   "Cols": {
     "Count": 60
@@ -11,13 +11,19 @@
     "5,2": "생년월일",
     "7,2": "직급",
     "9,2": "직종",
-    "11,2": "근로계약서",
-    "15,2": "근로형태",
-    "17,2": "배정현장",
-    "21,2": "저장"
+    "11,2": "국적",
+    "13,2": "근로계약서",
+    "17,2": "근로형태",
+    "19,2": "배정현장",
+    "23,2": "저장"
   },
   "AttachInfos": {
     "3,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "이름",
+        "GUID": "4e16fd98-4f4c-4cbd-98ea-489afa094af9"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -29,12 +35,22 @@
       }
     },
     "5,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "생년월일",
+        "GUID": "7c2156ae-0b5e-4f32-98f8-7d24474fae22"
+      },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner"
       }
     },
     "7,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "직급",
+        "GUID": "9e2ad642-daaf-467a-b51e-434a1afa5dcd"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner",
@@ -55,6 +71,11 @@
       }
     },
     "9,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "직종",
+        "GUID": "068122c3-db3f-46e6-b2e1-be4d1c6db093"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner",
@@ -73,6 +94,36 @@
       }
     },
     "11,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "국적",
+        "GUID": "68521fc3-3c8c-4e55-a38a-f598bff03c81"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ]
+      }
+    },
+    "13,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "근로계약서",
+        "GUID": "b77a5c58-e2c5-4664-a07e-4a8a38d72d8e"
+      },
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
         "UploadLimit": {
@@ -81,27 +132,12 @@
         "TemplateKey": "_RS_NewFashionStyle1"
       }
     },
-    "15,8": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "Items": [
-          {
-            "Value": "항목1",
-            "DisplayValue": "항목1"
-          },
-          {
-            "Value": "항목2",
-            "DisplayValue": "항목2"
-          },
-          {
-            "Value": "항목3",
-            "DisplayValue": "항목3"
-          }
-        ]
-      }
-    },
     "17,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "근로형태",
+        "GUID": "e78f7047-05df-48a6-97a0-a4d668eb066d"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner",
@@ -121,7 +157,32 @@
         ]
       }
     },
-    "21,2": {
+    "19,8": {
+      "BindingInfo": {
+        "TableName": "근로자",
+        "ColumnName": "배정현장",
+        "GUID": "4a02b70d-dbaf-4b5c-828b-d8f51f0c6f49"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ]
+      }
+    },
+    "23,2": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "저장",
@@ -162,11 +223,6 @@
       "9,6": 1,
       "9,7": 1,
       "9,8": 1,
-      "9,9": 1,
-      "9,10": 1,
-      "9,11": 1,
-      "9,12": 1,
-      "9,13": 1,
       "10,2": 1,
       "10,3": 1,
       "10,4": 1,
@@ -185,12 +241,7 @@
       "11,5": 1,
       "11,6": 1,
       "11,7": 1,
-      "11,8": 2,
-      "11,9": 1,
-      "11,10": 1,
-      "11,11": 1,
-      "11,12": 1,
-      "11,13": 1,
+      "11,8": 1,
       "12,2": 1,
       "12,3": 1,
       "12,4": 1,
@@ -209,43 +260,26 @@
       "13,5": 1,
       "13,6": 1,
       "13,7": 1,
-      "13,8": 1,
-      "13,9": 1,
-      "13,10": 1,
-      "13,11": 1,
-      "13,12": 1,
-      "13,13": 1,
+      "13,8": 2,
       "14,2": 1,
       "14,3": 1,
       "14,4": 1,
       "14,5": 1,
       "14,6": 1,
       "14,7": 1,
-      "14,8": 2,
-      "14,9": 1,
-      "14,10": 1,
-      "14,11": 1,
-      "14,12": 1,
-      "14,13": 1,
-      "15,2": 3,
+      "15,2": 1,
       "15,3": 1,
       "15,4": 1,
       "15,5": 1,
       "15,6": 1,
       "15,7": 1,
-      "15,8": 1,
-      "15,9": 1,
-      "15,10": 1,
-      "15,11": 1,
-      "15,12": 1,
-      "15,13": 1,
       "16,2": 1,
       "16,3": 1,
       "16,4": 1,
       "16,5": 1,
       "16,6": 1,
       "16,7": 1,
-      "16,8": 1,
+      "16,8": 2,
       "16,9": 1,
       "16,10": 1,
       "16,11": 1,
@@ -258,11 +292,6 @@
       "17,6": 1,
       "17,7": 1,
       "17,8": 1,
-      "17,9": 1,
-      "17,10": 1,
-      "17,11": 1,
-      "17,12": 1,
-      "17,13": 1,
       "18,2": 1,
       "18,3": 1,
       "18,4": 1,
@@ -275,35 +304,56 @@
       "18,11": 1,
       "18,12": 1,
       "18,13": 1,
-      "21,2": 3,
-      "21,3": 1,
-      "21,4": 1,
-      "21,5": 1,
-      "22,2": 1,
-      "22,3": 1,
-      "22,4": 1,
-      "22,5": 1,
-      "23,2": 1,
+      "19,2": 3,
+      "19,3": 1,
+      "19,4": 1,
+      "19,5": 1,
+      "19,6": 1,
+      "19,7": 1,
+      "19,8": 1,
+      "20,2": 1,
+      "20,3": 1,
+      "20,4": 1,
+      "20,5": 1,
+      "20,6": 1,
+      "20,7": 1,
+      "20,8": 1,
+      "20,9": 1,
+      "20,10": 1,
+      "20,11": 1,
+      "20,12": 1,
+      "20,13": 1,
+      "23,2": 3,
       "23,3": 1,
       "23,4": 1,
-      "23,5": 1
+      "23,5": 1,
+      "24,2": 1,
+      "24,3": 1,
+      "24,4": 1,
+      "24,5": 1,
+      "25,2": 1,
+      "25,3": 1,
+      "25,4": 1,
+      "25,5": 1
     },
     "SheetStyle": {
       "FontFamily": 1
     }
   },
   "Spans": [
-    "21,2,3,4",
-    "5,8,1,6",
+    "23,2,3,4",
     "3,8,1,6",
-    "17,8,1,6",
-    "15,8,1,6",
+    "5,8,1,6",
+    "7,8,1,6",
     "9,8,1,6",
-    "11,8,3,6",
-    "7,8,1,6"
+    "11,8,1,6",
+    "13,8,3,6",
+    "17,8,1,6",
+    "19,8,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "CSMS",
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -325,4 +375,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//uXz7CHjbSiZ6NSS/bf5jnSuVDkqNGT2EaOJGCYf2KJSrsy2lbyKjI+k1zWIG1ruZluiLtc03SdVLevKmGohv9E8kTnGFJpMk0FGp/GWfrHnAOk+0WYdfYXaQcNKltlKs/p81xUNgswsVAkG1wLHK2coRqggTBWPoTFInc2n55SpqVeXwBQQ4U4pjGP9Hxgejvz4rO4B+R1Q01tYC/9qQlJq2xxfTmS91QFrAQMBX99IsB5UZeW88pcfBPMP5ow6+ZXyltaFelZT17RraEHNxykl5CcNE5wz5Cf1LIPLY0YmNsy3Qd3dbWDP9jvzQntL60xYDi84YdG7b8RSCJpaK/YNrIeGF+naDB4tlXur2IvNPUMcM4up6SNDWAIBr0oOzCOf2depxRZv/C/Le7+YULLq4PnUMyccuJbx9iMx0M+if7Y3XP6xY9Ksf/qaCtgJRD79d9JJZnw6k4U5U1KfRnx5s12nHkz3Zaj3Psdq9KdYwbNzUPtn1yxksREg4sCn5iI5WDYs4ageRPpSCabzRrxJkRAIjgFJRTeMa/PTAvp5uOBiR+4tlh6t+B/b9e3A1lzyPBICy42smIIDNFyxRfliQ9GTGPlFgn9Tx49JRRNuEusI6Un900Fp/yY9E7KXwgHM7Uuw8HAX1zr5Qt20UrYyV9maAD9BVrvD6T+dkG9nnt91AIf3hIegwFUHLWpQ2Je+eWjCgUSGzTxuLLU8+3sD7X43UF2ihdLd6QtKyRetG42bsReVplr+edLUEmXiha9bxwRY/VR/Wbhz06dJO09jyhRL1DmOCLAsC8Xi9evpOHgzEqtyd6yLVNTtmroK87v5KQL9AwgaFnEx1og7toNmt7oIDbCo8MYnTcLDacN5rFj2cPOjiAosOR8rDlDd2XDCDjuG20UqAYjqWUUxIBA==|920
+}//6SzLN7Vu5wWJs/5OyiqHG+VLbDG8UjbiHuba95J8pxrwcoREFD5uQIFS+MVdm9x20j5+Hxncdy3PXXxVU1th8Xk/U2S1kJmPBOgYcPx6m2u2jVzX8t0OXzk67V9o91Mj3y2A6r+PPsWgNOfKxN/Z44q+A4re5dGYrp7LRoKHRtveiBE+HVx0J8q2qNV5b8b0vUSjlodj3YAJfKFZqESlA0Q8Bsq/QCViuiKIZLWWLsX6cnYb8SnXEUEGHxRHDFFGHtuC2qEt/ptqA86wlPO112EbkSoAQ5u0epill1IOA7NrnRSJSWCz0ltJsGkIS8asod439ZXUYDJZPexmDWGZjCVySHV86RVvwANQRjoAkGWCiz5Eyv8+NMRNoCUbuU4gLBplfJ+imUygBiTpi9MhLY2Ys6JaaHGB18abJCvuwK8DiO/6HC0FVHBHfJ0BC+gjopjwIYYgo6YHR4h9nsQsNNa5lvHVMfkmC2Mr1n4Qh5MpD02quVJ4t1aFN5XnWcRttZDPY4eOfDnzc5EtfyFb63/XdEgSqsuNrRGzdTWTc0Ey+T6O9bjWtA4PbvrATvTYbxsjZDsHlLv1gqOBNblFxox5P1o8pWi1ykCbuc9I86QZ9AIkm6KQIMjc6rl9Gxk3W1aXIWuiaBOdQrpqlCM+It4YLRtiZliqVyIhsXsS19sFmPB8PrWe/VUxWeV4/kpVKjFhfjCud7eMZZPW7rvfGj83/XRiLeEW09/B6Q0026z20+C2sUxged3zCxTwLd8NOgpUWZt1m6HueWGH+J+vCUmXOzd6BY4K9XRk+G/OB4UvutK+wzIH7DXUG3zGj3FWE4n1b8cpaeWHofNQfNHjQotRkrKDPmYBZxb/2RnqOvUB094jgQZOeLL6lb0XD2gUlw8FvyjXLkze06aLotmU3w==|920

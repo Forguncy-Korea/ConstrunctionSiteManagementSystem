@@ -5,7 +5,248 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "0,0": "메시어스 건설 현장 관리 시스템"
+  },
   "AttachInfos": {
+    "1,38": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "5,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_NewMenuLight",
+        "Items": [
+          {
+            "Value": "Home",
+            "Text": "Home",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "Home"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "현장개설",
+            "Text": "현장개설",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "현장개설"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "직원등록",
+            "Text": "직원등록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "직원등록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "직원목록",
+            "Text": "직원목록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "직원목록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "출역체크",
+            "Text": "출역체크",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "출역체크"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "출역확인",
+            "Text": "출역확인",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "출역확인"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "자산등록",
+            "Text": "자산등록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "자산등록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "자산목록",
+            "Text": "자산목록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "자산목록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "자재등록",
+            "Text": "자재등록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "자재등록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "자재사용",
+            "Text": "자재사용",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "자재사용"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "자재목록",
+            "Text": "자재목록",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "자재목록"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "공사일보",
+            "Text": "공사일보",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "공사일보"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 14.66,
+            "Bold": false,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 13.33,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
     "5,10": {
       "IsPlaceHolderCell": true
     }
@@ -21,7 +262,10 @@
     }
   },
   "Spans": [
-    "5,10,35,40"
+    "5,10,35,40",
+    "0,0,5,12",
+    "5,0,40,10",
+    "1,38,3,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
@@ -31,4 +275,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//IVqzPvOuxKHJqZI2Ay+jBHk8+lx5aCkt+31RPCPOvs5A7+NNoqiorrBQjdhbIP0xLdz3IaprfC+NXhRKiDYYhiznY70mCNURnKK6DyGudPVtnj7FF2bHCjd2q977rq7XCxK0NdXHenWrxWeDOJxpQUOWVejR08KV1v6AOlxcKB45XsuonA8wQ3u087ZdzP8R/vF0UKampopF0INYy2YqTw7FarJYIeXbN1MLxfKu5uL/ntPUbXFMAjt2ZX6Qpzd5b5wv9i3GP6siXZHIHeUlpQKlh80EAM2gaW9ofWVunmzB2MMlpSwIYzD8eMP338XXqYZSPsFx/IStapw1qaxz8H58Mkw92t4ALXnBtFdMg3WXv1kKHRIboKZ+Oaf5nDeXjWx4gTJhHl+AGptPONg470h6SZNKHI6rRVwUlhKasVbnX1tftqNR+WJGmHPVZuv7guDS8A64WaXzKpvfHl/cCIcLfGJkzoTqQXVwB1aJ+lsuoP4J+0K48Uo8fnJgus1yk9Y48Y3ZOYcmYzOn8Vcii/kMxg/Rwz6lxAr427/Cdo1KNREradPVrHlKy8WiX3EyGLUSnH+YcchH7Fq+KyO7YyG536X7hDxMMHsf84YIKjOtkHuRJtb2ib87I+rDzhZYwKj2zP1XlPY8F2p0scajAQzCmgSbkMLX8CGD3kzElCK0lz5aFVdYJxI4YIlNlRQJZFpuLeE2SbGeZ3FRpdhLV4jT52/FPYnDP1hhF1F0PvMVka0dXPWDqVd5DpZrqis67roDY1/BLeG3xOwrchGIv5wIaLM8WhtD/FZTgPD8xPdWh6bRu1N3xV/6mxt2Vm8RxAf2gu4tjFRrRhsDyV6y8IUV8kAVT92ZlPpIz5GiumrzZ0Eg2a5DKu2JwY5xxWjb3eRxrcwA/WUgIg2ZaEwlBQ==|920
+}//BDcDztZQW5l2012WfP8YmIlpUr9ILUfwKV5Vav/3rwMjtHGXS/9pRDGX53hOjF1eGCWmLPn0MaZTVh5P8sGOfR1s21MD8hfbNIC1PXEwdFX1N2y/iMFKs5/vEghYPPt8WDbDM/zN96pCjU+QFAMRSW56hqjUw8UYajotZUD3CI5ne4kuZydTjpP/DaInfD1JcketbsoronewqxsAqcZseaivWRxzZwpIpMH7pUjlUvbWFnBsZeOYgvDKpvBs1VXJWI8E34kuPj+gwkBpLMvyyd8JCDAzclCaKpxnP29G8EKgDlqYI/S+PHA/jMS/9v719Sw2vBY6YzvtWjg7367qv4cAZkr5Plet3gc/WqwEgXR6uMQZen/bmsXKDjiWks/IKg9q0PwyVbuVib+FeIYSQCbfALYUSBvqMl6kXHie4pvnObeDH96yvlPpa0m2VVWwknlZHhV2raUycRhC5jbiOSuqIY18EhyWnaHL6h3Z5gpTxNnN7RcWM6PBTlwL/2DKcaw80Opp/365MO1K1/8DlOYUemBwkPJrVlSwAqy4MZPHIjKsqfFO4nrWAau1oSyjyabcjVUAN7UcU6wv/b2yjwMBYxV8kEMhIoBVEh3SwGbls9lkPCvchKeFhbrN+y/OSbs4Gaa0XPOovaCG3EhibHE5SYDGUQE5FY0TQn8RS1f1wCow4K3RKl8WqvHkXmXi2d8L9cLKjVlr9nno7yfyZF++gYnbDalRahEXbCBLizXNaYPY8IBk8OniEdpeI4oNd/Cu6yqH8uZrv73vGKwm2cYIjAVanA3CNbSRf2GBkFnyMyzNlQeyRo4JhHnkEUkxxB5y4OfbzkJmYhZYqbaCKtX6tUf5HnpuWGe7clW1SR3lgGfk+70zJhtzBUv4uCwCUDM+OOZubOnhtj1mWZNf8Q==|920
