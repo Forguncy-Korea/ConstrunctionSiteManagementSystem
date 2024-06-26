@@ -253,7 +253,16 @@
   },
   {
     "ModuleName": "PCPage/출역체크",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "NANCYKIM\\90707",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-06-26T17:01:00.8039705+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\출역체크.json"
+    ]
   },
   {
     "ModuleName": "PCPage/공사일보",
