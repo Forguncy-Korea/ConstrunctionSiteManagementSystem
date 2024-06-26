@@ -1,5 +1,6 @@
 {
   "Name": "출역",
+  "ShowBuiltInFields": true,
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",

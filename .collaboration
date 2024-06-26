@@ -157,62 +157,22 @@
   },
   {
     "ModuleName": "Table/근로자",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1584514+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\근로자.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/자산",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1768994+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\자산.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/자재",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1769009+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\자재.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/현장",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1769037+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\현장.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -237,16 +197,7 @@
   },
   {
     "ModuleName": "PCPage/출역확인",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T17:08:51.8328855+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출역확인.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/자산목록",
@@ -262,16 +213,7 @@
   },
   {
     "ModuleName": "PCPage/출역체크",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T17:01:00.8039705+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출역체크.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/공사일보",
@@ -283,27 +225,11 @@
   },
   {
     "ModuleName": "PCPage/페이지2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-07T13:49:59.1581529+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/출역",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1769027+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\출역.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -312,17 +238,7 @@
   },
   {
     "ModuleName": "Table/공사일지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T16:56:35.1768905+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\공사일지.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -331,12 +247,6 @@
   },
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "NANCYKIM\\90707",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-26T17:04:36.2429713+09:00",
     "ModuleType": 16
   }
 ]

@@ -1,0 +1,91 @@
+{
+  "Name": "예약된 작업1",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 45469.0
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
+      "CSVOperation": 1,
+      "FilePath": "C:\\Forguncytest\\employee.csv",
+      "TableName": "근로자",
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "근로자",
+            "ColumnName": "사원번호",
+            "GUID": "e8ed71af-781f-4cce-8d08-ee0ce2c54bef"
+          },
+          "CSVColumnNameOrIndex": "사원번호"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "근로자",
+            "ColumnName": "이름",
+            "GUID": "565fd669-58e7-4ff2-b956-ac087b3932f3"
+          },
+          "CSVColumnNameOrIndex": "이름"
+        }
+      ]
+    },
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportCSVCommand, ServerDesignerCommon",
+      "FilePath": "C:\\Forguncytest\\employee.csv",
+      "TableName": "출역",
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "출역",
+            "ColumnName": "사원번호",
+            "GUID": "c5d75145-6b15-4789-8b23-429d8fb205f5"
+          },
+          "CSVColumnNameOrIndex": "사원번호"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "출역",
+            "ColumnName": "이름",
+            "GUID": "00f1a2db-9da2-4755-990b-84ce92483a6c"
+          },
+          "CSVColumnNameOrIndex": "이름"
+        }
+      ],
+      "ConvertDateTime": false
+    },
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "출역",
+      "ShowConfirm": false,
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "출역",
+          "ColumnName": "FGC_CreateDate",
+          "GUID": "784269d6-166e-471c-a5ff-4fa28ddb7553"
+        },
+        "Value": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        }
+      },
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "출역",
+            "ColumnName": "날짜",
+            "GUID": "538b77d7-d7fd-45eb-ad30-200fa3e232e4"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=TODAY()"
+          }
+        }
+      ]
+    }
+  ]
+}

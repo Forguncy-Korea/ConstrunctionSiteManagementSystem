@@ -96,6 +96,77 @@
         "Text": "검색",
         "TemplateKey": "_RS_Main1"
       }
+    },
+    "8,1": {
+      "ListViewInfo": {
+        "Name": "리스트뷰1",
+        "TableName": "출역",
+        "RowIndex": 8,
+        "ColumnIndex": 1,
+        "RowCount": 26,
+        "ColumnCount": 39,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "9,2": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "사원번호",
+        "GUID": "d864ee89-576e-4f5f-a5db-e4476fb93c51"
+      }
+    },
+    "9,7": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "사원번호",
+        "GUID": "5756014e-7cf7-4025-837b-7f52939eac19",
+        "RelationBinding": {
+          "RelatedTable": "근로자",
+          "RelatedColumn": "사원번호",
+          "DisplayColumn": "이름"
+        }
+      }
+    },
+    "9,13": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "날짜",
+        "GUID": "ff08d133-0404-4da3-80c2-e7cc6c3e60af"
+      }
+    },
+    "9,20": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "출역여부",
+        "GUID": "fe18e9de-8c83-4939-af2a-27adcd1c7a87"
+      }
+    },
+    "9,27": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "주간근무",
+        "GUID": "41df1815-a97a-49a1-b839-8beb28e7add9"
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
+    },
+    "9,33": {
+      "BindingInfo": {
+        "TableName": "출역",
+        "ColumnName": "연장근무",
+        "GUID": "e6d30eda-b01a-43cc-8987-9832a2e83d7d"
+      },
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false
+      }
     }
   },
   "StyleDatas": {
@@ -109,13 +180,17 @@
       },
       {
         "FontFamily": 1
+      },
+      {
+        "HorizontalAlignment": 3
       }
     ],
     "Types": {
       "Strs": [
         "@",
         "Body",
-        "[AUTO]General"
+        "[AUTO]General",
+        "Center"
       ]
     },
     "CellStyles": {
@@ -123,7 +198,9 @@
       "6,36": 1,
       "6,37": 2,
       "6,38": 2,
-      "6,39": 2
+      "6,39": 2,
+      "9,27": 3,
+      "9,33": 3
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -134,7 +211,20 @@
     "6,36,1,4",
     "6,28,1,7",
     "4,4,1,7",
-    "4,16,1,6"
+    "4,16,1,6",
+    "10,1,24,39",
+    "9,2,1,5",
+    "8,2,1,5",
+    "9,7,1,6",
+    "8,7,1,6",
+    "9,13,1,7",
+    "8,13,1,7",
+    "9,20,1,7",
+    "8,20,1,7",
+    "9,27,1,6",
+    "8,27,1,6",
+    "9,33,1,7",
+    "8,33,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -160,4 +250,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//p0TDufiSFcjDPMCXfMC721bT74RHQCy+vZJAsENjD9jpeMKxOExHMtHd9y7Gkf3gpRU88NLfO7ffeOQCR/Pyf1Rw1p+AOUZG9tOiepchid8Sk7YZeaYwUzmALB3wyaBBRrSXXrCTUZQOmcSQp1MGP2YFLMCO2WFeTWU6D+j9r9Eo0swx3MZ0PZHRoJN4q0ivfIC9+TjNdvXqWwaIS5MOyeBuE1sLCXNErPEUUff/IRxz3UEWU5oWSTjtwOoCQIT/QRX5lx9tjdR7RqlaXpumlh8Qf5v32tpjQYm0/BZNn3O1g+qTuIMju2KxdjcPgftbaQs4Sma4COlnhI0wnAFpqcyhkFYmC8khJoX0SoOKCYkqQZ9g9xQin1VyOtpv5aRmB3qbmNDTyBhbm8MugAfjhGhw1qdMgf5BoPOgTeHxcY/5vYftMvhSj0Mrv1nr+hsM9QoqrpQs3jf6dWHjSXyy5Gtickgdqgwk0yOWGXOC4dHg4Y5/vC2UyjT0e9yMHCvwrtdUZ/TnITwKLipTsjb7nFz+Vk7/HyzIfdbjFmqzadUx+ALmQ1AMPNcS6wzg5pgZtURnX3zlkTZmZ9yINSWMXltiKKqOx48f3MIU4Gw+wJrk1dl8Up3Zh0tmcMZ5FI2VMfpPKj/KmNKKLqIZeAoAe5l2E0V1v858CVe8ckXe74fmYkoN1ibevs/5RAQcF/7Mx60e/+PPahchOWNMd867Cjz44inf+OaV/b0ljhjZMtrMEqAYU6uMZrpd/BY2bEOXxaC+CIgfNbYb5sD7BW9aH1swA4pnPftaid3L99NW/IXlY6vSVAk4mvvz+8fcgbryYapcB4ZAQYwcjbiNoZUvZqeIurMzkD1nzxBJ2pY0JGkcs2NnTGGQpfUT4RNqZN2TiCCxIA2D7tlKkOFCvaqEQA==|920
+}//fhVySlE/KCn65gZWA9N6CoDVvFDs1fB1UsgNfCeZHcm993IwrHw/k8OK6n6POhCpwIbIiAaGylw7Iu+v3/DPT+AeyvceKpp0nMhnG8klTmQPwpx/Meto57uQ9zp1Ea2TAOqJNJBBcRqKaYCl8SxNRpWaxmLmYsNiAemadFaHaGnRJSNLh+IPRGMs8ntzeZ3bS0FeGCig1EB7K/WLW13Qb5zN1lHSkeO6nUYkQK4M2A02NGDVWNi5eppTEodonHzw3ecWDxSQo03Xtcn2SB0XzIXPjJ3ypTkDhKZFrDTm/Z3QO0Y0XVlwfhkHC3AXQRuzsR5nJEGUGqOIEl39EGiFoeDDbF1OH9rdoogXfwieaekpRzQ5GlN4ESpU757CmWo66MJISUF51XRr7hX/oUohYvxQ/fkeApHDy6FIMXdtUsi/ntbm1pZPgOHScJIaLLNvd9nJDd4BzGY4m6XPA2ba+T5Q20o+cc4KHz9GHrD140Ghr/Acbdsclr2Vmzze3LMCm2le9ly5bhWbgRS24HTSMJqPuVP7Am/3nCRIK6+hIM2oNKOdVcR/VqtWOvewFfJ/CE6VGJPWgTYG25tZIZQbaNULI0diQUOgd1CW01BS+htbppfIhYtpxd3V7yUDPcju2vNzoquCxyv7ARS2Tz0cxmV8+8/NliS656ybpjJx2qVrPS6h7CkcCwRtRDHyp4uYLf4kZ8r1kAr3sFNqLReJ4EQaj7NxV6pZ5ppbMJ5j2D+4iZX+uxD8+7cwNCx+kiZ/ZDPoR1EUiVjrvqw0mXxQD62PwgP9Xr2mH53TH4c+tpbpsyMMe6ouruYvYnWqrLjAtipzN60FdqZanSpKjEaHr47m8Iy50k6X6SuHsRQvCchXqmBh8RYHi0i05CNJpn9A8OTr90FjaPYidR/+O6E7wA==|920
