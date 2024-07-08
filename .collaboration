@@ -319,5 +319,15 @@
       "ForguncyDB.sqlite3"
     ],
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/공사일보결재",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-08T14:07:28.1508367+09:00",
+    "ModuleType": 1
   }
 ]
