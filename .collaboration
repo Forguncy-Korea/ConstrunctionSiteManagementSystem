@@ -173,7 +173,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402404+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.7360407+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\근로자.json",
@@ -188,7 +188,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402426+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.7360416+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자산.json",
@@ -203,7 +203,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402507+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.736043+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자재.json",
@@ -218,7 +218,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402534+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.7360439+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\현장.json",
@@ -294,7 +294,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402546+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.7360447+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\출역.json",
@@ -308,12 +308,12 @@
   },
   {
     "ModuleName": "Table/공사일지",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T13:21:53.5402645+09:00",
+    "LockDateTime": "2024-07-08T13:22:06.7360373+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\공사일지.json",
@@ -328,5 +328,16 @@
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
     "ModuleType": 16
+  },
+  {
+    "ModuleName": "Table/공사일보테이블",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-08T13:22:06.7360393+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
