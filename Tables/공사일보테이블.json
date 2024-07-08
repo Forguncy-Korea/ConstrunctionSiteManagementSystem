@@ -40,7 +40,7 @@
           "ColumnBindingInfo": {
             "TableName": "공사일보테이블",
             "ColumnName": "FGC_Creator",
-            "GUID": "666d2811-acf2-49e9-8d78-f6c083922789",
+            "GUID": "f9ae083a-717b-4ff2-b765-9cb0ea5193c3",
             "AttachType": {
               "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
               "UserColumnAttachType": 3
@@ -75,7 +75,7 @@
           "ColumnBindingInfo": {
             "TableName": "공사일보테이블",
             "ColumnName": "FGC_Creator",
-            "GUID": "9b3ecc38-e3c0-4999-83a3-63b2f8ff8875",
+            "GUID": "0d513003-e65f-46e6-82f4-93e5da3081d7",
             "AttachType": {
               "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
               "UserColumnAttachType": 3
@@ -111,7 +111,7 @@
         "Assignees": [
           {
             "FlowProcessRoleType": 1,
-            "Name": "소장"
+            "Name": "대표"
           }
         ],
         "Errors": []
@@ -152,8 +152,8 @@
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 1,
-            "Name": "대표"
+            "FlowProcessRoleType": 3,
+            "Name": "Creator"
           }
         ],
         "Errors": []
