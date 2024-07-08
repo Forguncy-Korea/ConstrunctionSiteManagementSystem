@@ -177,7 +177,16 @@
   },
   {
     "ModuleName": "MasterPCPage/CSMS",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-08T14:21:32.7717485+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\CSMS.json"
+    ]
   },
   {
     "ModuleName": "PCPage/직원등록",
