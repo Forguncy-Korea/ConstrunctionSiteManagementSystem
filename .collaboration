@@ -308,7 +308,16 @@
   },
   {
     "ModuleName": "PCPage/공사일지확인",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-08T14:16:25.3901968+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\공사일지확인.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
