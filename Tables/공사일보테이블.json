@@ -1,5 +1,5 @@
 {
-  "Name": "공사일지",
+  "Name": "공사일보테이블",
   "FlowProcess": {
     "IsEnabled": true,
     "FlowStates": [
@@ -9,11 +9,19 @@
       },
       {
         "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10",
-        "StateName": "승인 대기"
+        "StateName": "제출"
       },
       {
         "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048",
-        "StateName": "승인됨"
+        "StateName": "소장승인"
+      },
+      {
+        "Id": "30648ddf-9f3b-4176-b828-796bbeaef5ac",
+        "StateName": "대표승인"
+      },
+      {
+        "Id": "4ff571c8-2dd5-4b42-ae2b-24a7708e6bdb",
+        "StateName": "반려"
       }
     ],
     "FlowPaths": [
@@ -26,14 +34,63 @@
           "ActionName": "제출",
           "GUID": "e3ab8a28-8288-42dd-9aa9-c28b05a7076b"
         },
+        "Condition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 6,
+          "ColumnBindingInfo": {
+            "TableName": "공사일보테이블",
+            "ColumnName": "FGC_Creator",
+            "GUID": "666d2811-acf2-49e9-8d78-f6c083922789",
+            "AttachType": {
+              "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+              "UserColumnAttachType": 3
+            }
+          },
+          "Value": "공무"
+        },
         "ToState": {
           "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10",
-          "StateName": "승인 대기"
+          "StateName": "제출"
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 5,
-            "Name": ""
+            "FlowProcessRoleType": 1,
+            "Name": "소장"
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "cbc8e5c5-1b8f-4709-b714-7d203221d315",
+          "StateName": "새로 만들기"
+        },
+        "Action": {
+          "ActionName": "제출",
+          "GUID": "e3ab8a28-8288-42dd-9aa9-c28b05a7076b"
+        },
+        "Condition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 6,
+          "ColumnBindingInfo": {
+            "TableName": "공사일보테이블",
+            "ColumnName": "FGC_Creator",
+            "GUID": "9b3ecc38-e3c0-4999-83a3-63b2f8ff8875",
+            "AttachType": {
+              "$type": "ForguncyDataAccess.UserColumnAttachObj, ForguncyDataAccess",
+              "UserColumnAttachType": 3
+            }
+          },
+          "Value": "소장"
+        },
+        "ToState": {
+          "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10",
+          "StateName": "제출"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 1,
+            "Name": "대표"
           }
         ],
         "Errors": []
@@ -41,7 +98,7 @@
       {
         "StartState": {
           "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10",
-          "StateName": "승인 대기"
+          "StateName": "제출"
         },
         "Action": {
           "ActionName": "승인",
@@ -49,12 +106,12 @@
         },
         "ToState": {
           "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048",
-          "StateName": "승인됨"
+          "StateName": "소장승인"
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 5,
-            "Name": ""
+            "FlowProcessRoleType": 1,
+            "Name": "소장"
           }
         ],
         "Errors": []
@@ -62,20 +119,62 @@
       {
         "StartState": {
           "Id": "ade64474-e144-4ff6-8cfa-2111244a5c10",
-          "StateName": "승인 대기"
+          "StateName": "제출"
         },
         "Action": {
-          "ActionName": "거부",
+          "ActionName": "반려",
           "GUID": "0ca2e4b4-8a17-4348-acef-a1575b07ec1b"
         },
         "ToState": {
-          "Id": "cbc8e5c5-1b8f-4709-b714-7d203221d315",
-          "StateName": "새로 만들기"
+          "Id": "4ff571c8-2dd5-4b42-ae2b-24a7708e6bdb",
+          "StateName": "반려"
         },
         "Assignees": [
           {
-            "FlowProcessRoleType": 5,
-            "Name": ""
+            "FlowProcessRoleType": 3,
+            "Name": "Creator"
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048",
+          "StateName": "소장승인"
+        },
+        "Action": {
+          "ActionName": "승인",
+          "GUID": "fe370a72-6ae7-4db6-8a24-bc7792b3dc26"
+        },
+        "ToState": {
+          "Id": "30648ddf-9f3b-4176-b828-796bbeaef5ac",
+          "StateName": "대표승인"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 1,
+            "Name": "대표"
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "0c6f3beb-5fde-437d-a77c-44c98b266048",
+          "StateName": "소장승인"
+        },
+        "Action": {
+          "ActionName": "반려",
+          "GUID": "84b6fba0-9afe-4333-b70c-af1447d7b1a1"
+        },
+        "ToState": {
+          "Id": "4ff571c8-2dd5-4b42-ae2b-24a7708e6bdb",
+          "StateName": "반려"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 3,
+            "Name": "Creator"
           }
         ],
         "Errors": []
@@ -95,7 +194,7 @@
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.Int64",
+      "DatabaseColumnType": "System.String",
       "Name": "현장",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -342,6 +441,12 @@
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
+      "Name": "기타사항",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
       "Name": "FGC_State",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -381,7 +486,7 @@
       "PrimaryTable": "현장",
       "PrimaryColumn": "현장번호",
       "ForeignSchema": null,
-      "ForeignTable": "공사일지",
+      "ForeignTable": "공사일보테이블",
       "ForeignColumn": "현장",
       "RelationTypeOnDelete": 0,
       "RelationTypeOnUpdate": 0,
@@ -392,7 +497,7 @@
       "PrimaryTable": "근로자",
       "PrimaryColumn": "사원번호",
       "ForeignSchema": null,
-      "ForeignTable": "공사일지",
+      "ForeignTable": "공사일보테이블",
       "ForeignColumn": "사원번호",
       "RelationTypeOnDelete": 0,
       "RelationTypeOnUpdate": 0,

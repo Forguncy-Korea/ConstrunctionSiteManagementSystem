@@ -18,7 +18,7 @@
           "BindingColumn": {
             "TableName": "근로자",
             "ColumnName": "사원번호",
-            "GUID": "e8ed71af-781f-4cce-8d08-ee0ce2c54bef"
+            "GUID": "d2cc0f11-bc17-4a65-a0d6-4a51f798f4da"
           },
           "CSVColumnNameOrIndex": "사원번호"
         },
@@ -26,7 +26,7 @@
           "BindingColumn": {
             "TableName": "근로자",
             "ColumnName": "이름",
-            "GUID": "565fd669-58e7-4ff2-b956-ac087b3932f3"
+            "GUID": "5cf1527a-1fb9-44fb-b281-6513829d4cd5"
           },
           "CSVColumnNameOrIndex": "이름"
         }
@@ -41,7 +41,7 @@
           "BindingColumn": {
             "TableName": "출역",
             "ColumnName": "사원번호",
-            "GUID": "c5d75145-6b15-4789-8b23-429d8fb205f5"
+            "GUID": "a0882d2a-6b7d-4696-86f9-8db9062203ff"
           },
           "CSVColumnNameOrIndex": "사원번호"
         },
@@ -49,7 +49,7 @@
           "BindingColumn": {
             "TableName": "출역",
             "ColumnName": "이름",
-            "GUID": "00f1a2db-9da2-4755-990b-84ce92483a6c"
+            "GUID": "48104367-e12a-479d-a694-857589bb799d"
           },
           "CSVColumnNameOrIndex": "이름"
         }
@@ -66,7 +66,7 @@
         "ColumnBindingInfo": {
           "TableName": "출역",
           "ColumnName": "FGC_CreateDate",
-          "GUID": "784269d6-166e-471c-a5ff-4fa28ddb7553"
+          "GUID": "e545ed6a-5553-46bd-bd39-3351bd59f3d2"
         },
         "Value": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -78,7 +78,7 @@
           "BindingInfo": {
             "TableName": "출역",
             "ColumnName": "날짜",
-            "GUID": "538b77d7-d7fd-45eb-ad30-200fa3e232e4"
+            "GUID": "a380a6bf-c6d7-47f5-9408-17f69f785ea3"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",

@@ -17,6 +17,11 @@
   },
   "AttachInfos": {
     "3,8": {
+      "BindingInfo": {
+        "TableName": "자산",
+        "ColumnName": "자산명",
+        "GUID": "8783f014-9ecb-461a-bece-30586831d21f"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -28,6 +33,11 @@
       }
     },
     "5,8": {
+      "BindingInfo": {
+        "TableName": "자산",
+        "ColumnName": "자산분류",
+        "GUID": "4df4c3dc-3664-4648-8c14-e3e96a365cea"
+      },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner",
@@ -48,12 +58,22 @@
       }
     },
     "7,8": {
+      "BindingInfo": {
+        "TableName": "자산",
+        "ColumnName": "구매일",
+        "GUID": "6da9011f-1150-47b5-9824-204448196016"
+      },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner"
       }
     },
     "9,8": {
+      "BindingInfo": {
+        "TableName": "자산",
+        "ColumnName": "시리얼넘버",
+        "GUID": "7d5fdd4b-627a-4c8e-a9bf-3519747b44e2"
+      },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -65,6 +85,12 @@
       }
     },
     "11,8": {
+      "BindingInfo": {
+        "TableName": "자산",
+        "ColumnName": "자산사진",
+        "GUID": "7be05fb7-d733-44f4-b6e9-2dfc709c07f5",
+        "IsImagePath": true
+      },
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
         "UploadImageLimit": {
@@ -204,10 +230,6 @@
       "3,6": 0,
       "3,7": 0,
       "3,8": 1,
-      "3,9": 0,
-      "3,10": 0,
-      "3,11": 0,
-      "3,12": 0,
       "3,13": 0,
       "3,14": 0,
       "3,15": 0,
@@ -306,10 +328,6 @@
       "7,6": 0,
       "7,7": 0,
       "7,8": 0,
-      "7,9": 0,
-      "7,10": 0,
-      "7,11": 0,
-      "7,12": 0,
       "7,13": 0,
       "7,14": 0,
       "7,15": 0,
@@ -368,10 +386,6 @@
       "9,6": 0,
       "9,7": 0,
       "9,8": 1,
-      "9,9": 0,
-      "9,10": 0,
-      "9,11": 0,
-      "9,12": 0,
       "9,13": 0,
       "9,14": 0,
       "9,15": 0,
@@ -613,13 +627,13 @@
     }
   },
   "Spans": [
+    "22,2,3,4",
+    "19,8,1,5",
     "3,8,1,5",
+    "5,8,1,5",
     "7,8,1,5",
     "9,8,1,5",
-    "5,8,1,5",
-    "11,8,7,9",
-    "22,2,3,4",
-    "19,8,1,5"
+    "11,8,7,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -645,4 +659,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//HyItapsZCt4cjCjjnwvdW8ONsxCYE+6igieWWIe6onBanNd9ZFI18St719pDpUXDOvEsjyt/DwkIqFSGecVqOrEeo8ByzkA77zejgcFEbddrJJTv3MZoutGoqWO01yvSTKMph9bIRQBt6eSfQKshGabzl1Mjnumvl4cqwKO71GgPogHVH0As0sHDu4a75KK3GOyQn8LLm2+K/ZNymUW9BnuNh586VPn/gohO+Gjy0J5Cyorpmv2hdE6Dc/Ne1HXSA/1iYiynmwdrMeLfkseLPm+mcPHMVBmEDI7fGp/GjeeoSJF8i7UHNe2szULQZIH9pQOZ+SLviBQcGzonHjnjzGHXklBTU90opWIZUgATz1o/OFZmclzmy/hCoY3eslCTcgeK5/gUX8P5p+D+pJsAvnl2swB4/n6HPAHlTHRjMWUrJKRxbGcgbcPHLZ1vbd2xh0o5wKCiGmccqasTeSfU05uZuSUMa7eBdEMy1ScANoHzgVb9W4gzzTWrtDV/9jYxAu2+oVBA4cvagpFo6mxb4jlZResrg+8TBaLDcGNEVlUNFlc6v8gjv17XRFHUqpbtBI25Ajgfw/x33D8iXx+rW4vaaAkLDOB5pjRqN07iYTu5qkxvlajFcEpgR+phlO4gaPawNhAZ9PKR5qKXAnWBbDkW4EmSJ/TWu2d/+nZYl/t5Yn0WIoS4qR2euBWoxqrLv/Q6mH1zmCpt6EHCcEajASAFy9qB6lrSHcxk4MSKtFeLs7gUxUTTJ1z5xsQfqjmsOXTrWMi6xTVrE95jj9KVd0yp4+8wKLB2dmK1M5HWe38OzO/ms3nJKV0OgD1kHcxJm/OlvL7knXAvhv1WHv2/Vd/8prINUe6wvFY23UuDLAvsPJtN7M6Sel2NnnC/lOMxw92zG5mwyn08NOgA0jaI0g==|920
+}//0RdCjZ1Vgb3jHBMMJmOQ56+X+EvPCXC9wWAhnnihYKeiQhkyo0Qj0Bh1KALQe/o3UvKhx1QNmIFDB/eI6AexihfG/HE2TvbKU2A+17oEYtHMOIPbAYY6PtUhiYoiJp9mW5xJrj0ijHRRqPCzsmDP6gAoclYPr6QqJuZhlPfsNgVASHeh4ka3uUJK7YVTDUtlhNG8HNfmEUgbgLZ3VjRr/UzA3z3MDdN0DEEpbQfwU4PIv2ACcgIJzEy2IDTW6ilNKtrTqHyVJXp1XevDM+pqkoaQG6It87Wu1orQbPhd55W7kp7vHFdBgnF80Ezx1/XT9cpqv927uJt1ox9BULroEPfMy1TmYzKKS6N9MFNBvkzEFNKi+QW5dsxrLh2QYKgKMP3F+FvW3EIv/K8UJWJpghc9rSv8K54NOwEKNRFj9VGPNRxD9middB+h5Evl09WHlzDhuf7KSOUeKYg/Li2LtnJe/ULdoNPlvGnANqvUWrnGmdRmiMk+a5bgFxrZMErJQNaSdHxInWsTYH0qDkwAbFvN7iaiK0XBSzabAUUS0s7cGO4bWnIAyRblIUMFx6pSCPrbsahTqNSJKpN8+O1JpbxzDXB3pzSOETE5Lx5pB+/LXHHYCh3+BuduhgsTBM1L3BAEt5qH5j5p/0MCQFON0Ei8W67p5KPx/b0RwT/1XnhpN/qDOmInk8Ax+17JeL4+H9nh+aihpCR5nEgvhVylJsR+OjBoFo0mNVZrTrtm2u3zJxsr/kNwTPhSGaSGNHmy6HtsSiQ/GsJEqFoFCZ/mzT0Q7CGLiGkawhg33ug4w6KEZiWgvhBp0+mrFg18ExzVejat9p/09yUcVTRl+TQUTHQFZnl50X5F0ii/x1F7LosrxrHPJso4kdzI0tTo6e+B5bJAZ6t4KD5Ty8qTTg4aLQ==|920

@@ -22,7 +22,7 @@
       "BindingInfo": {
         "TableName": "근로자",
         "ColumnName": "이름",
-        "GUID": "4e16fd98-4f4c-4cbd-98ea-489afa094af9"
+        "GUID": "290d0295-1b9a-410d-a970-2d44d2560804"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -38,7 +38,7 @@
       "BindingInfo": {
         "TableName": "근로자",
         "ColumnName": "생년월일",
-        "GUID": "7c2156ae-0b5e-4f32-98f8-7d24474fae22"
+        "GUID": "d863f8c6-47bb-4f8c-a06e-0c6a3de625ea"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
@@ -49,7 +49,7 @@
       "BindingInfo": {
         "TableName": "근로자",
         "ColumnName": "직급",
-        "GUID": "9e2ad642-daaf-467a-b51e-434a1afa5dcd"
+        "GUID": "dac9259f-40d8-433f-9dc3-098e18a7782d"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -74,7 +74,7 @@
       "BindingInfo": {
         "TableName": "근로자",
         "ColumnName": "직종",
-        "GUID": "068122c3-db3f-46e6-b2e1-be4d1c6db093"
+        "GUID": "c8d8c146-2223-45fb-8dc1-42ad034b8e74"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -342,14 +342,14 @@
   },
   "Spans": [
     "23,2,3,4",
-    "3,8,1,6",
-    "5,8,1,6",
-    "7,8,1,6",
-    "9,8,1,6",
     "11,8,1,6",
     "13,8,3,6",
     "17,8,1,6",
-    "19,8,1,6"
+    "19,8,1,6",
+    "3,8,1,6",
+    "5,8,1,6",
+    "7,8,1,6",
+    "9,8,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -375,4 +375,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//6SzLN7Vu5wWJs/5OyiqHG+VLbDG8UjbiHuba95J8pxrwcoREFD5uQIFS+MVdm9x20j5+Hxncdy3PXXxVU1th8Xk/U2S1kJmPBOgYcPx6m2u2jVzX8t0OXzk67V9o91Mj3y2A6r+PPsWgNOfKxN/Z44q+A4re5dGYrp7LRoKHRtveiBE+HVx0J8q2qNV5b8b0vUSjlodj3YAJfKFZqESlA0Q8Bsq/QCViuiKIZLWWLsX6cnYb8SnXEUEGHxRHDFFGHtuC2qEt/ptqA86wlPO112EbkSoAQ5u0epill1IOA7NrnRSJSWCz0ltJsGkIS8asod439ZXUYDJZPexmDWGZjCVySHV86RVvwANQRjoAkGWCiz5Eyv8+NMRNoCUbuU4gLBplfJ+imUygBiTpi9MhLY2Ys6JaaHGB18abJCvuwK8DiO/6HC0FVHBHfJ0BC+gjopjwIYYgo6YHR4h9nsQsNNa5lvHVMfkmC2Mr1n4Qh5MpD02quVJ4t1aFN5XnWcRttZDPY4eOfDnzc5EtfyFb63/XdEgSqsuNrRGzdTWTc0Ey+T6O9bjWtA4PbvrATvTYbxsjZDsHlLv1gqOBNblFxox5P1o8pWi1ykCbuc9I86QZ9AIkm6KQIMjc6rl9Gxk3W1aXIWuiaBOdQrpqlCM+It4YLRtiZliqVyIhsXsS19sFmPB8PrWe/VUxWeV4/kpVKjFhfjCud7eMZZPW7rvfGj83/XRiLeEW09/B6Q0026z20+C2sUxged3zCxTwLd8NOgpUWZt1m6HueWGH+J+vCUmXOzd6BY4K9XRk+G/OB4UvutK+wzIH7DXUG3zGj3FWE4n1b8cpaeWHofNQfNHjQotRkrKDPmYBZxb/2RnqOvUB094jgQZOeLL6lb0XD2gUlw8FvyjXLkze06aLotmU3w==|920
+}//SZftqV+/nyJb5SFY9YBvnY6eWj139v5ObXAZLHC6zP/THoTjIzD7CCii8cE9622kdlmNXR+iU/wSunmBIxt1rHyjsFd0kNwJArDaJNSSN/AN2Tv+E3QYtBNe7VsbF/+RW8anhYaek2hLoy0sxa4E+CocPEC3Ez09xkspCp8mq+RDl7DGRSeyLQBP7q27ekkBwTyRz+v8OjrCKZeS1FjFOeegA4fiPlt10r1q9dlVZpKrxrZmeqJuAHhzaO2SIV6wJt0gQZBQyZNNJaSXKPqFIbQcqePdLJQUT50Cd/1efsX3MAnPy9k5AZZIChho04myovQMqck4FxH4/G+MayyygxiszFg2OaqzG59V6ERj51qJx+ms2OgzQkEnay20wdDWeA10evvFgVNh0IXc/9MxVL/gGRU3TWA8ln2ASv359UgajsZoByhPoI6ydn/V87PrLzAG3gvBnNdRN6PZDqLi4Y3/dD4/BNq2guG13+SwqY8aU0XPkTzE0N/20rR8qd8jcnXulr+TBXxGJ7+678x1OR2Dgh03nZ/syrusmBXFyaDGFOCMfyGFztsvPJm1bIHXQs3Txix/frsPD1wCx+SOIJ828ZAQBX/n6N3wyKapm8V5sefnx8dkhOFoPMsrkjwPeKvJgFQKn4FY/0KdsKnH9surveRcddM2dtOXrz1tobRhv3V9QYGxStXvmHeMf1vnuTI8ZpVb2AbOSwKGj3DTsmmDKZaf74Muk5KWVrVDvVsDIVwOUpjkfLX6TdTrEmQTUkrpL8Kex0lKyv8Bm9ViWOCXAgZmxpMyhWh8hTaTprcfLgUdpnQSs+gJL72LzFvW9U+ef74+ptE2bhny6JsuJRneHaM0F7ZJ/ClL0eLlreJAe+SveDAGizi4CVBj0eQUhAokQ5DYpkDFv1mobuC/gg==|920
