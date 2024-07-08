@@ -308,12 +308,12 @@
   },
   {
     "ModuleName": "PCPage/공사일지확인",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T14:16:25.3901968+09:00",
+    "LockDateTime": "2024-07-08T14:17:25.6918501+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\공사일지확인.json"
@@ -337,5 +337,15 @@
       "ForguncyDB.sqlite3"
     ],
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/공사일지확인및결재",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-08T14:17:25.6918679+09:00",
+    "ModuleType": 1
   }
 ]
