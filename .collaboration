@@ -266,15 +266,5 @@
   {
     "ModuleName": "PCPage/공사일지확인및결재",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/페이지1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-07-08T15:27:10.7446886+09:00",
-    "ModuleType": 1
   }
 ]
