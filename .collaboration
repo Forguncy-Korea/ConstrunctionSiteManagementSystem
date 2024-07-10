@@ -162,7 +162,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161797+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610612+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\근로자.json",
@@ -177,7 +177,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161806+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610629+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자산.json",
@@ -187,12 +187,12 @@
   },
   {
     "ModuleName": "Table/자재",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161864+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3608944+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자재.json",
@@ -207,7 +207,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161873+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610647+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\현장.json",
@@ -289,7 +289,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:09:34.5262041+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610585+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\공사일보.json"
@@ -328,7 +328,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161881+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610656+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\출역.json",
@@ -351,7 +351,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9162147+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610836+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\공사일보테이블.json",
@@ -399,7 +399,18 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T13:14:18.9161779+09:00",
+    "LockDateTime": "2024-07-10T15:17:10.3610638+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/자재입출고",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T15:17:10.3608986+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
