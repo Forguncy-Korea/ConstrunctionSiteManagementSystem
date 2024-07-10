@@ -741,7 +741,7 @@
                 }
               }
             },
-            "ID": "76e0c6d270204f44a4b212081c4ed1f8"
+            "ID": "e7fe15b1d7d6438ca8a005193b152722"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -773,7 +773,7 @@
                 }
               }
             },
-            "ID": "e37fb670b61a45de82695100325687f9"
+            "ID": "5a1065b42bb7467cb45db5cebd08f964"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1119,7 +1119,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "자재번호",
-                  "GUID": "96c09e15-9346-43b8-bcb8-2240d79ca225"
+                  "GUID": "cb63d10d-f801-40a5-8813-062bf4edc117"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1130,7 +1130,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "단위",
-                  "GUID": "ec494d9e-bbb6-4446-8fec-6fe61c8ff486"
+                  "GUID": "72e1f4b3-8322-46dd-8510-65cac2368654"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1141,7 +1141,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "설계량",
-                  "GUID": "f1f93c56-6883-455c-aa28-7402494896a3"
+                  "GUID": "caaf2d02-5406-4c4a-b528-473087f264c6"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1152,7 +1152,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "반입량",
-                  "GUID": "119c2e4e-5760-417f-9075-51d1de056b99"
+                  "GUID": "74915588-4f02-4986-bdf7-08617d114e79"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1163,7 +1163,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "사용량",
-                  "GUID": "8ac91d1a-9eca-4a3d-b126-af7d882825ea"
+                  "GUID": "b53e96cc-cc10-4cd3-beb5-e927aa7b6f6d"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1174,7 +1174,7 @@
                 "BindingInfo": {
                   "TableName": "자재입출고",
                   "ColumnName": "구매일",
-                  "GUID": "2b6b2164-3789-4b3e-9b6f-24ce9ad6dbbe"
+                  "GUID": "f8d4230c-5b85-481e-a9d0-5874d0b33a89"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1193,7 +1193,7 @@
               "ColumnBindingInfo": {
                 "TableName": "자재_",
                 "ColumnName": "ID",
-                "GUID": "21acb35a-eb4e-4f9e-a344-1df759b56a54"
+                "GUID": "ba8fe5d5-141f-4f54-833c-019009af9f3d"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1205,7 +1205,7 @@
                 "BindingInfo": {
                   "TableName": "자재_",
                   "ColumnName": "반입누계량",
-                  "GUID": "6526579b-d792-4cb9-a240-bb0bcf3b8b26"
+                  "GUID": "3c33bf89-8e68-46b2-bcef-c1ed67e03ff6"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1216,7 +1216,7 @@
                 "BindingInfo": {
                   "TableName": "자재_",
                   "ColumnName": "잔존량",
-                  "GUID": "1a772082-c736-4cd4-aa01-de9fdd45cbd8"
+                  "GUID": "54c67140-e246-458b-a3e5-a72d6fff1052"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1253,7 +1253,7 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "자재번호",
-                          "GUID": "1ca9f381-70a6-425f-80e2-809410c6d841"
+                          "GUID": "e47debb6-5c65-4d4c-86bc-6166bb68d257"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1264,7 +1264,7 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "단위",
-                          "GUID": "b5b8931a-a5e1-4ec6-96b5-f8fe34c3e543"
+                          "GUID": "5746eee9-2989-4c50-b01f-06450b05c2f2"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1275,7 +1275,7 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "설계량",
-                          "GUID": "b7b1a4de-1e79-44df-af72-9eb47cbc4838"
+                          "GUID": "0607b294-68d9-4d1c-8a40-2f218e770682"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1286,7 +1286,7 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "반입량",
-                          "GUID": "260485ce-8967-4135-bad7-cfc871d89c4b"
+                          "GUID": "decba944-031e-45c6-934e-850d06d8cc19"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1297,7 +1297,7 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "사용량",
-                          "GUID": "4eb4cd8b-ec88-49c4-86cb-4f874d560a3d"
+                          "GUID": "8d7bfc3a-349f-46a6-9357-8bd1bc342907"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1308,7 +1308,155 @@
                         "BindingInfo": {
                           "TableName": "자재입출고",
                           "ColumnName": "구매일",
-                          "GUID": "f56b5fed-5cf8-4696-b352-96411522e88d"
+                          "GUID": "af03ea2b-974b-4606-b19b-8b2aaf99037c"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!B6"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "자재입출고",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "자재번호",
+                          "GUID": "3eee1720-f503-4c2b-81ae-897edfd24a15"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!I41"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "단위",
+                          "GUID": "52550f75-4cf2-4e41-a188-4dec823cb7cd"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!K41"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "설계량",
+                          "GUID": "927a6bfd-f56c-4738-8623-f4a97b13bdf3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!L41"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "반입량",
+                          "GUID": "f3d6b755-e3ad-448b-8418-8443caccccde"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!M41"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "사용량",
+                          "GUID": "66cd5b05-1998-49ae-905e-e1530e526516"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!Q41"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "구매일",
+                          "GUID": "c2ab73a9-276b-4bd2-8a00-06af0566b796"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!B6"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "자재입출고",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "자재번호",
+                          "GUID": "60c6312d-ecff-4f76-a347-fc7e972b3b58"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!I42"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "단위",
+                          "GUID": "a2eb220a-655b-4088-a897-fac94b2fbaa3"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!K42"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "설계량",
+                          "GUID": "e670597f-49bb-4fec-8391-b6592690d71a"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!L42"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "반입량",
+                          "GUID": "b77c6e0f-58b5-4a60-a1dc-915bb3b4aa9b"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!M42"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "사용량",
+                          "GUID": "3cbac914-6636-410e-a621-5b3ca5bfdd22"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=공사일보!Q42"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "자재입출고",
+                          "ColumnName": "구매일",
+                          "GUID": "5a0cf236-b1c3-49c1-9cf2-6390e695fcc0"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1318,9 +1466,13 @@
                     ]
                   }
                 ],
-                "ID": "39ec5081-12f1-4f07-a99b-1ea631684c80"
+                "ID": "9ebabe4b-2452-40bf-96a9-fbc0e16eb944"
               }
             ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "Home"
           }
         ],
         "Text": "저장",
@@ -4995,4 +5147,4 @@
     },
     "PageOrder": 1
   }
-}//NVz3TY6aRO99Dx49kmuX0+dtNfpdn7bbOt7pWJhPowfRlE093xlmzjHaNxn79mUXbHx4vR5s6EXb663rrR35lup3CId532ciKOo/aUcjH84jL7jNt+/e463w7wjqKlmT3qeNKNV/RR5EpuE0G/KESQ9sU0hFr55UZO0ogSnLeIIYzaHplTfJGaqTRJTeSj8NNYgwzv3fsAMZqfa9BgrLjDyFCAkcUIXKLm1hK2uJmYQDuSfUn1gvbkM502fYajJCNsfX57ZxQ+l36JRNp+oKU6yCcquuKEGpELhFmDG+RioksygFhawD7tfeuT+lfOcotx8nPe1TB5FGgUfQIykgyBC525fMGRvR7MKacNnXZ+Cm0B5/wsyGJGaXq1Ie5LR9wvp4E4d4cVB/84M+pORKGYVDGXSdpk7D2MeNDoG2PNzk43shBKuDk6EhOKtIV1FEVrzfFnAT6TGFvE7+G6e1d/xZS9bkICzTk8/93YCjOxqvq0dKF1PZctl9+875UzEXj2b1RXZDcZNrYYm8cHx2KyUpKBmPpKd4YjzPfjvqyQC5z7VhVfYpODoddyJ8ej1YdgoYzoojG47bVP3ZpolBGMm8JF3BR8ZHhdaiVTDm+BY64RNPPM7ilZaXajPhDmeqeDnAz21A8iUU0cSC3CWFfuojK6rAHNftWcWzDPAZ7wSxm4mPbSI4BWoHL1W4HoyvJ0CtlRNHcCY0JzfECdTlXcld9qCfk3t1EbaQLcXLy0ZsFpxKdAfTTM9BHeDqNlhVU3xGQmrfN4eP2tH7VjkS2bFi5rHjBYc3vmziwfVWAX3+17Sq82edS3fXjsbZ6T561+MdUZa8PQlzLc4xh1isxMlvptVu2up2IXOCrFvBPV8XzFYmVWnLQUdxd1EBQcK9DOGNrKakZUSuJ3w82njvOg==|920
+}//gs4jA9l3cHQ0WN9Gi5RyJbjjP/MrOufKGJbxByhBwcVX5zmG9kh8F6f7gfhSGSQ2VfFLeIZyJqP8qLBj6gifDmXDsB5eA666oMZRgjqKcsW8frxUKS3yYEMm5q33InT0op3nQf3n+ZstzPbGHY6Eua7+t2bCSCysU0oVsG2VOg3HzsfwAykY576yQX7lRNb3ENI1n8E9GuQ8lMVfB6Zb6PPAFxa/zx4xKmbM04fx1g85Q48eZDrYjLm/Zka/vFLnO2RzUaYVn0+rG8XJJQbdFVj8Ef0srDoUhA9dBn2TU26+DOaqwuO84OUHBneHL3nOewa7i+3sidWyPIoGEz6joDvxJ+pmc6gQBsYDHFMWqgyMtOaRhwlYH/avQmkPuFb2IElFKRtoOisjSynDB7TqmM+pH9t4EX1MXWGjDZBoVkqUJiKJRNCgCF8AzXM+y5y0iWjFHjxSwNNjvqre1AJ3IRGjJPCx9cxqviPmA/SPmd4gq+Uwlhq8epue8ak6yN07b/12WBzYUn97wbT4qQeDx4+On6BIqIiOwWL5S8zfwoNLB8gUBY+iID3jvx04PRRm3cXmSx0mBYsZ9774a/RFbLq9bZj4MNWEvQkWHNNgXK5XxckaYDrOHc3eLh6ceeBdd3GY+TAl5N1oMP8r0IfO7ipRmMlcO0cMjdEC2Hc55ig43YT5IQclzFshb+Ge3sWXgalS/4wlxBX+fkgyYWOODK9PZgFoK6Epbk7ntz7DbsKqMnfBLE3tVsUiWQ0E/AdoUVDSsKaDsJFI092nvg9FjTTsiXpzENR/Pyr/wgb9vw9NeT/5XyhCa+Ou2xuvagprTSEtjCWrEVIjBcnKYufq63WuGk/aDbX1UAifVeCQezCv5lfUD27hNBiy8hQlau9/TzwqQzME4mOftTUGAgyrng==|920
