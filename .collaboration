@@ -344,5 +344,15 @@
     "ToRemoveFiles": [
       "Pages\\공사일지확인및결재.json"
     ]
+  },
+  {
+    "ModuleName": "PCPage/페이지1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T10:46:11.5190247+09:00",
+    "ModuleType": 1
   }
 ]
