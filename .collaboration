@@ -222,7 +222,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-08T14:21:32.7717485+09:00",
+    "LockDateTime": "2024-07-10T11:34:50.7778395+09:00",
     "ModuleType": 3,
     "ToRemoveFiles": [
       "MasterPages\\CSMS.json"
@@ -254,12 +254,12 @@
   },
   {
     "ModuleName": "PCPage/자재목록",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T11:34:42.3220759+09:00",
+    "LockDateTime": "2024-07-10T11:34:50.777756+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\자재목록.json"
@@ -362,6 +362,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2024-07-10T11:03:26.5132696+09:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/자재잔량",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T11:34:50.7777687+09:00",
     "ModuleType": 1
   }
 ]
