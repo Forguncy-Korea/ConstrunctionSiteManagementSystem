@@ -6,7 +6,7 @@
     "Count": 60
   },
   "Values": {
-    "1,2": "공사일지 확인",
+    "1,2": "공사일지 확인 및 결재 페이지",
     "3,2": "날짜",
     "3,19": "확인"
   },
@@ -44,26 +44,82 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "날짜",
-        "GUID": "d4c4c94d-c5a9-4857-940b-75a3061916c2"
+        "GUID": "eb519996-a72a-4177-b615-ac5efae55829"
+      },
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "공사일보-결재"
+          }
+        ],
+        "ClickMode": 1
+      }
+    },
+    "6,7": {
+      "BindingInfo": {
+        "TableName": "공사일보테이블",
+        "ColumnName": "현장",
+        "GUID": "3d311378-bb3e-409e-983b-b131ebb66360"
+      }
+    },
+    "6,13": {
+      "BindingInfo": {
+        "TableName": "공사일보테이블",
+        "ColumnName": "FGC_Creator",
+        "GUID": "7d81183f-42dd-4bab-b71d-495e72f9f3b4"
+      }
+    },
+    "6,18": {
+      "BindingInfo": {
+        "TableName": "공사일보테이블",
+        "ColumnName": "FGC_CreateDate",
+        "GUID": "86b43850-944b-429f-b394-a56568506bb3"
+      }
+    },
+    "6,23": {
+      "BindingInfo": {
+        "TableName": "공사일보테이블",
+        "ColumnName": "FGC_LastModifyDate",
+        "GUID": "429bdb1d-7fb6-4099-9872-f52525aefcb7"
       }
     }
   },
   "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true
+      }
+    ],
     "Types": {
       "Strs": [
+        "Blue",
         "Body"
       ]
     },
+    "CellStyles": {
+      "6,2": 0
+    },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 1
     }
   },
   "Spans": [
     "3,5,1,10",
     "3,19,1,4",
     "7,2,30,48",
-    "6,2,1,4",
-    "5,2,1,4"
+    "6,7,1,6",
+    "5,7,1,6",
+    "6,13,1,5",
+    "5,13,1,5",
+    "6,18,1,5",
+    "5,18,1,5",
+    "6,23,1,6",
+    "5,23,1,6",
+    "6,2,1,5",
+    "5,2,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -88,4 +144,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//XUiMKA0mpkDl1ByiZT+JdgQcAB2thIPRD7lC98u7voa4nMcKPPZ6fGv97XsQDWQGBCl34nJz6kUYAbR3dmEI2aXpwJyEgH3OzEJGNYqfRnI8dV6rsEEHpblRsYbO/qgfo62SCzuv0NiTY0jOO49fdJvMUFcO1IIa9RhakWqcdkDfjacuWkythcR/aTMu8obQcrXVqrVEYFm6a+Yt9MNpZZMzuGm1FgT5HTA1sNUTFXQGfWWyJJfn6MNxwMhHOdj5vF2SO7HAtBttmc2Zbk9n9tLdPkBJtCUZqKWBMXf28+OYvzaeHOMGPmgk7UR3lyiFiRa329DyTHARaNEhHaNLbx93TazAODVprPcWgUtOEDOFVFi7IVaZ1SI4nhSuLHulODnEeuUXc5I7CkeUraIEpjBg3Zy39jAGznpT2FjBx9TTuVWapKkWythXh6YUY4flkeF6VisqOYjUjTVxYw98dz+FCPkBZEms7fvUNos4i8wZfdeYFrRW3xxxwqT63FtdQRnw3d6DfGPzDY9G1qww/igKSzTMiIyEdmt/yUU5SrsLuzamYku5mO8FRTkfypN2Mju80TgYm2AU2a7F7CJEy1n11NVCO0jQxzwEN2+RtUQYNiZNun3eGADC7DgByMEANyB07/5cmCUgrgrZDlwHOWKdpRGZ2PX8sUeXUcl+MJZP5os0CVxJ4i8Kz3Jyi8LUPX0Os0j5N22wH1O28XCvFG5yESjpYJtARAtBJMs9GOoIkGiKVUzreBYLy7j+sL6JGxivTzBPiuTsYCJL5o9Z2z630yaE+BERgUjdgGNBVHO4Tar45Sj9Xj2kL0FOCp9g06Aysu5ncrF5wU7PQMydJQyxELAgvgvfDLM/WMC44QvDkg5SN1SX0kybt3SX8aehbNBWOyUTN0ic/ABdKzERhg==|920
+}//72VPexJ666opA96Q+CTqO//mlyGWBxgWRCarSzzwkbyOIw0feRYGBs0/2JMoJPK6dU2p8KayCd5i/uRvNIY4VIcV+zWfHjA5v2MxuDy5F76k1exQGCXh+lU4CSavFnEPu5X8L097rmu0WlKlvAUs0Bim9u5s35GT4V+FMxzTGy1lH470Lzv/T9kUlFUXx3G5U6ig4EBYQ/YvapF8uvF2sEU4kNvQ1xpfAaCCjRhcJZ6bRu9jaIp8xX3KsiCjok8+IXeP29P4rYiHbSMf2R9DkK7DI0xwXnWinvdJ40jewLmpnPnQQ0pIgMmI9V27tzGK+ZyQVHIFTAjHA412gWzuW4MPkOQ05yYgmy+9cXauRx8kcLSNAKjGegnr6SSPEoGg7zQO5tK09HbrEb/nbFiKeDdmxOm+N5F1HPr02XscxGmViPYzPMylaFVPIscSYOZB+6yBi0GCZ8tE3qtRZLallHTWVjVVS2V0FZL3WUGjcN25UXpAeuPTJXKQ3bkd4L/q+5d3eoNztGNb7ow8MgzblQm9WmMwutd07ym9vlo8B2rJsJUosfkuB5TjgBOWXB59y4m2tnRxUNdSixHhAaKlb09Kl+chsJQUCbwgl8aMlgc7Di413tj8wNR/Dg5lC2hP41dNtSSH3qbEM+Mm1PdFI/aoLMC9+A8Pu5a4Wc2vgRfqhfdMX+o41Go9GHhcp+Pvm9gYEvVWiLu0nFiabWeTq76OUj96c+pPwuWI4SISB/nszstn0OKegXojYiyu6wscf2TayLl3pckE3pbKTdpByKixM2EbUyBRxOrS8r8mOz5qwCEIpRy8jbDjmL0Td3PHT2aBeC4MwVikygFcGYRPftL+LrpfdBTN+wim7yEgIvV3OXh8OxqLQhyYPxrw6df03ERWto9BB8jo1ZJH9Q/46g==|920

@@ -214,12 +214,26 @@
     "37,16": "사용(금일)",
     "37,17": "잔고",
     "37,18": "비 고",
-    "37,19": "금일추가누계량",
-    "37,20": "잔고량",
+    "38,8": "철근",
+    "38,10": "톤",
+    "39,8": "레미콘",
+    "39,10": "m3",
+    "40,8": "시멘트",
+    "40,10": "포",
+    "41,8": "레미탈",
+    "41,10": "포",
     "45,0": "기타사항",
     "51,0": "저장"
   },
   "Formulas": {
+    "41,14": "M42",
+    "41,17": "M42-Q42",
+    "40,14": "M41",
+    "40,17": "M41-Q41",
+    "39,14": "M40",
+    "39,17": "M40-Q40",
+    "38,14": "M39",
+    "38,17": "M39-Q39",
     "35,4": "SUM(E11:F35)",
     "35,6": "SUM(G11:H35)",
     "34,6": "E35",
@@ -246,10 +260,7 @@
     "12,6": "E13",
     "13,6": "E14",
     "10,6": "E11",
-    "11,6": "E12",
-    "38,19": "O39+M39",
-    "38,20": "R39-Q39+M39",
-    "38,14": "ODATA(\"자재_?$select=반입누계량&$filter=ID eq \"&IF(ISBLANK(I39),\"null\",I39))"
+    "11,6": "E12"
   },
   "AttachInfos": {
     "1,16": {
@@ -266,14 +277,10 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "날짜",
-        "GUID": "f576990f-e5c0-4891-8e06-5afdd20a16d9"
+        "GUID": "c9bdb64a-2d08-4578-8943-c9da408655b3"
       },
       "CellType": {
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
-        "CellDefaultValue": {
-          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=TODAY()"
-        },
         "TemplateKey": "_RS_NewLittleRoundCorner"
       }
     },
@@ -281,7 +288,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "날씨",
-        "GUID": "adc6f5d7-6c12-4e97-8fe7-754b5a359991"
+        "GUID": "ed76037f-8630-4cc6-bf14-a1f5300578c0"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -307,7 +314,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "온도_최저",
-        "GUID": "8e31e113-8ada-4769-bbc2-4c541d265236"
+        "GUID": "82aa3904-28e9-4538-ba08-cd7b397a2b16"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -318,7 +325,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "온도_최고",
-        "GUID": "088bc982-f24b-464f-b182-d8db077924bf"
+        "GUID": "3c9b181b-6edd-4a34-8807-9e1982d96673"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -329,7 +336,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "공사명",
-        "GUID": "a1692694-90e1-41ba-a6e5-e9614844be97"
+        "GUID": "a64bd00d-6e5d-47d0-86c3-df5942817339"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -339,12 +346,12 @@
         "ValueColumnBindingInfo": {
           "TableName": "현장",
           "ColumnName": "현장명",
-          "GUID": "52827410-4813-478d-b04a-e6534d26d7c5"
+          "GUID": "f0d30dab-5a22-4726-aa73-ea9598221928"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "현장",
           "ColumnName": "현장명",
-          "GUID": "6a63b256-b00a-43d6-b869-5a3f0e0c3375"
+          "GUID": "df1ab88c-9065-46cc-8e3e-629ca13da901"
         },
         "CellDefaultValue": " 공 사 명  : "
       }
@@ -353,7 +360,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "계획",
-        "GUID": "1cfdcddf-7970-4b77-9026-b16058f00b6b"
+        "GUID": "ef715d5b-08c7-4b91-8114-fb8efc298b81"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -369,7 +376,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "실적",
-        "GUID": "9db5f9b3-6081-42e8-b4a9-285bbfabe3aa"
+        "GUID": "1888e574-f652-4525-a926-254b0d33eff9"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -385,7 +392,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "직원",
-        "GUID": "ee70de37-c1b6-4461-860b-3691bb7f9264"
+        "GUID": "91aa5c95-f8ab-46c8-aafb-a9f96ec4324d"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -396,7 +403,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "작업내용_금일",
-        "GUID": "2a084765-5db6-4b7d-b09e-cf9a55d7484c"
+        "GUID": "2e0ca1ce-e8c7-4765-9de0-6d0f5b23bbfe"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -412,7 +419,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "작업내용_명일",
-        "GUID": "90695dfd-34df-4545-98ef-abfbf8d8f2ae"
+        "GUID": "9df5a2b7-e3ea-4a92-a8f6-aaee1b73f58c"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -428,7 +435,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "작업반장",
-        "GUID": "83c8145e-4ff2-43a0-ba4a-48f0466a7367"
+        "GUID": "0309ffb0-c5e6-49fb-873d-ce6e11212679"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -439,7 +446,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "용역인부",
-        "GUID": "2f8c1519-bc0d-49e8-a49b-123623a16112"
+        "GUID": "db3b680f-f113-4bb6-a3d9-676d8ccf09a8"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -450,7 +457,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "신호수",
-        "GUID": "6c512685-1606-4cd6-a7f4-8a8b94816668"
+        "GUID": "88a55ef8-984f-4199-a4c2-66a8d6badbc9"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -461,7 +468,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "장비기사",
-        "GUID": "19ac527f-acf5-4a62-82fd-e469815c852a"
+        "GUID": "2cae86b9-1a53-44ca-ae2e-c00eb6525e3e"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -472,7 +479,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "부대토목공",
-        "GUID": "0bec795f-b499-4730-9484-8df2119a93b9"
+        "GUID": "9edae4c8-677f-4668-91f6-7f44403ef96f"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -483,7 +490,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "형틀목공",
-        "GUID": "cce2255c-4f4c-4f58-87ef-6b64c23dea81"
+        "GUID": "34c7d77c-ce83-45ad-9d28-4d7de4c87bcd"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -494,7 +501,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "철근공",
-        "GUID": "20a27726-da6d-4817-a6f9-59fb0ff261f5"
+        "GUID": "14289ad3-997a-49f4-8c4a-fc5669867ea4"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -505,7 +512,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "콘크리트공",
-        "GUID": "86969eda-5a85-4a9a-8d3e-4d4f767f6382"
+        "GUID": "6973dde4-ff1e-4f30-82eb-2d32761b18c2"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -516,7 +523,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "비계공",
-        "GUID": "7a0c9076-28a9-4290-8e28-e679a6a357c7"
+        "GUID": "bbf4d4c6-f6fa-473a-afff-3a7f015fc785"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -527,7 +534,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "조적공",
-        "GUID": "d8325a57-4c9c-40f1-9ea0-3036c9ed93a6"
+        "GUID": "086108b5-c500-4c10-8c0d-e9baad4eff36"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -538,7 +545,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "미장방수공",
-        "GUID": "39774f39-0205-42ea-b4d4-f5c0b49074fd"
+        "GUID": "f1c2b984-11b9-4f3b-b11b-02bf85d49719"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -549,7 +556,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "석공",
-        "GUID": "c128012f-5f3f-4434-a492-677c3c1c2742"
+        "GUID": "4d8ec029-d28f-4698-acc1-51b6f69cb665"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -560,7 +567,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "창호공",
-        "GUID": "9ac42ba6-4645-4d22-b324-309127c0ac88"
+        "GUID": "03c0dd8c-1010-42ba-91c5-cb9e3239d6c1"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -571,7 +578,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "금속공",
-        "GUID": "7a7aaf25-911e-4e88-bf82-ea71f6531fcf"
+        "GUID": "b1f17ecf-248c-4f7e-8b92-f0dae5b1d843"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -582,7 +589,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "도배공",
-        "GUID": "97e3267f-7a7c-468f-a826-b76348f23977"
+        "GUID": "424648a6-8943-4c1e-a6f8-4a471d4ff015"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -593,7 +600,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "내장목공",
-        "GUID": "6756d434-c701-477b-a87c-887540582934"
+        "GUID": "d161ac6e-0b3a-4c3b-a434-2749a2629323"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -604,7 +611,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "천정공",
-        "GUID": "24c5db8e-bd56-46b5-b276-ea566108ecd0"
+        "GUID": "333e73d0-3d0c-4f8e-a544-5252232976b3"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -615,7 +622,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "타일공",
-        "GUID": "90602ab6-f5a5-4b16-919d-e17271436cf1"
+        "GUID": "86d78adf-8d80-4141-a295-5cf1a22a1742"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -626,7 +633,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "도장공",
-        "GUID": "7b2d2cff-bfaf-4873-9f45-c407a4d84705"
+        "GUID": "0bec6316-66f3-42d6-89c4-3d4b47317b12"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -637,7 +644,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "유리공",
-        "GUID": "011158ac-c9d6-4154-a6f2-134345a432d5"
+        "GUID": "105e7ceb-ce0d-49e5-8f65-920f4d0f499c"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -648,7 +655,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "전기공",
-        "GUID": "9afa03a3-8832-4e76-b77f-b9848858263e"
+        "GUID": "6a114da5-4b46-4ffc-bc9e-3342272b7e2a"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -659,7 +666,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "설비공",
-        "GUID": "bb354dec-49e3-4392-82b9-236bfb5aff3c"
+        "GUID": "953401ae-ca32-4f2b-b520-cbb3dfdb4db7"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -676,7 +683,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "기타",
-        "GUID": "9f837f3c-3f84-4909-87d0-5ae5daaa8fee"
+        "GUID": "5a0c4a2a-16ee-42bf-9fc7-d0773ecbe72e"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -687,147 +694,7 @@
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "합계",
-        "GUID": "08ea0793-9ad3-4b1f-865b-996d3692322f"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      }
-    },
-    "38,8": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "IsBounding": true,
-        "DataSource": "자재_",
-        "ValueColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "ID",
-          "GUID": "480fc398-a978-4559-a640-78a6cad80f77"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "자재명",
-          "GUID": "75d877bb-e58a-4a38-8174-d3c650c9208a"
-        },
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-            "ParameterName": "품명1_잔고수량",
-            "TableValue": {
-              "TableName": "자재_",
-              "OnlyGetValue": true,
-              "TableValueType": 0,
-              "BindingInfos": [
-                {
-                  "BindingInfo": {
-                    "TableName": "자재_",
-                    "ColumnName": "잔존량",
-                    "GUID": "460e10c3-dd03-4962-be8d-21b9b4a4afd2"
-                  },
-                  "ColumnName": "잔존량"
-                }
-              ],
-              "SqlCondition": {
-                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                "ColumnBindingInfo": {
-                  "TableName": "자재_",
-                  "ColumnName": "ID",
-                  "GUID": "d0fdea42-79ea-4a15-acb9-61f0f11611d7"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!I39"
-                }
-              }
-            },
-            "ID": "76e0c6d270204f44a4b212081c4ed1f8"
-          },
-          {
-            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-            "ParameterName": "품명1_반입누계량",
-            "TableValue": {
-              "TableName": "자재_",
-              "OnlyGetValue": true,
-              "TableValueType": 0,
-              "BindingInfos": [
-                {
-                  "BindingInfo": {
-                    "TableName": "자재_",
-                    "ColumnName": "반입누계량",
-                    "GUID": "e129c74f-baca-4d93-875a-434e4839a215"
-                  },
-                  "ColumnName": "반입누계량"
-                }
-              ],
-              "SqlCondition": {
-                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                "ColumnBindingInfo": {
-                  "TableName": "자재_",
-                  "ColumnName": "ID",
-                  "GUID": "0f54d401-daa5-41f3-b9f0-5c99614800b6"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!I39"
-                }
-              }
-            },
-            "ID": "e37fb670b61a45de82695100325687f9"
-          },
-          {
-            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
-            "PropertyItemsList": [
-              {
-                "TargetCells": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!R39"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!품명1_잔고수량"
-                }
-              },
-              {
-                "TargetCells": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!O39"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!품명1_반입누계량"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "38,10": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "Items": [
-          {
-            "Value": "톤",
-            "DisplayValue": "톤"
-          },
-          {
-            "Value": "포",
-            "DisplayValue": "포"
-          },
-          {
-            "Value": "m3",
-            "DisplayValue": "m3"
-          }
-        ]
-      }
-    },
-    "38,11": {
-      "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "설계량",
-        "GUID": "aabe6e95-0cc1-4740-bb16-2930fbb47330"
+        "GUID": "6640f9be-45cc-4059-a48d-077b46230150"
       },
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
@@ -835,265 +702,38 @@
       }
     },
     "38,12": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      },
-      "DataValidationInfo": {
-        "NumberType": 2,
-        "CompareParamType": 4,
-        "FirstParamValue": "0"
-      }
-    },
-    "38,16": {
       "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "사용량",
-        "GUID": "79c4eeb4-8fb8-4d87-9293-8af298a70a4b"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      }
-    },
-    "39,8": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "IsBounding": true,
-        "DataSource": "자재_",
-        "ValueColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "ID",
-          "GUID": "675747a3-1883-47d7-a5f8-59e27796aeff"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "자재명",
-          "GUID": "e81de9ba-c8dc-4fbd-9af7-81fd6d065cf6"
-        }
-      }
-    },
-    "39,10": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "Items": [
-          {
-            "Value": "톤",
-            "DisplayValue": "톤"
-          },
-          {
-            "Value": "포",
-            "DisplayValue": "포"
-          },
-          {
-            "Value": "m3",
-            "DisplayValue": "m3"
-          }
-        ]
-      }
-    },
-    "39,11": {
-      "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "설계량",
-        "GUID": "189ba5e9-bcaf-4f04-b118-8ee03e0bac83"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
+        "TableName": "공사일보테이블",
+        "ColumnName": "철근",
+        "GUID": "4f759a0b-5aa6-4565-8238-5764e84a7680"
       }
     },
     "39,12": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      },
-      "DataValidationInfo": {
-        "NumberType": 2,
-        "CompareParamType": 4,
-        "FirstParamValue": "0"
-      }
-    },
-    "39,16": {
       "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "사용량",
-        "GUID": "0540c43b-43e6-4ed0-b6f2-c5029cd72ec3"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      }
-    },
-    "40,8": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "IsBounding": true,
-        "DataSource": "자재_",
-        "ValueColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "ID",
-          "GUID": "c7322cc8-7f25-4f80-a3e3-07e82cdcaa1a"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "자재명",
-          "GUID": "334a07d4-9163-491a-8cf8-423c0d727b19"
-        }
-      }
-    },
-    "40,10": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "Items": [
-          {
-            "Value": "톤",
-            "DisplayValue": "톤"
-          },
-          {
-            "Value": "포",
-            "DisplayValue": "포"
-          },
-          {
-            "Value": "m3",
-            "DisplayValue": "m3"
-          }
-        ]
-      }
-    },
-    "40,11": {
-      "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "설계량",
-        "GUID": "03e83937-f274-4880-ae61-0d33b0d47c5f"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
+        "TableName": "공사일보테이블",
+        "ColumnName": "레미콘",
+        "GUID": "15ed2e64-ad0e-4002-80e8-5e88447f1a23"
       }
     },
     "40,12": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      },
-      "DataValidationInfo": {
-        "NumberType": 2,
-        "CompareParamType": 4,
-        "FirstParamValue": "0"
-      }
-    },
-    "40,16": {
       "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "사용량",
-        "GUID": "47ad3bb4-fc32-4bed-adbb-183cf997ce37"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      }
-    },
-    "41,8": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "IsBounding": true,
-        "DataSource": "자재_",
-        "ValueColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "ID",
-          "GUID": "5e76075a-194d-4af3-8cdf-6128e36edb95"
-        },
-        "DisplayColumnBindingInfo": {
-          "TableName": "자재_",
-          "ColumnName": "자재명",
-          "GUID": "ee16c331-9f6b-4c41-8462-65a02235dc12"
-        }
-      }
-    },
-    "41,10": {
-      "CellType": {
-        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "Items": [
-          {
-            "Value": "톤",
-            "DisplayValue": "톤"
-          },
-          {
-            "Value": "포",
-            "DisplayValue": "포"
-          },
-          {
-            "Value": "m3",
-            "DisplayValue": "m3"
-          }
-        ]
-      }
-    },
-    "41,11": {
-      "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "설계량",
-        "GUID": "611a92b4-6bec-4676-8751-02e95dc5e041"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
+        "TableName": "공사일보테이블",
+        "ColumnName": "시멘트",
+        "GUID": "cf33986b-2cc8-43f2-b6a1-63a5a782d914"
       }
     },
     "41,12": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_NewLittleRoundCorner"
-      },
-      "DataValidationInfo": {
-        "NumberType": 2,
-        "CompareParamType": 4,
-        "FirstParamValue": "0"
-      }
-    },
-    "41,16": {
       "BindingInfo": {
-        "TableName": "자재입출고",
-        "ColumnName": "사용량",
-        "GUID": "c00b867c-1c86-4d7b-aa6e-8e07d995f05c"
-      },
-      "CellType": {
-        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_NewLittleRoundCorner"
+        "TableName": "공사일보테이블",
+        "ColumnName": "레미탈",
+        "GUID": "71e91b26-2431-4f02-9679-a416cb1789b6"
       }
     },
     "45,3": {
       "BindingInfo": {
         "TableName": "공사일보테이블",
         "ColumnName": "기타사항",
-        "GUID": "77b22f37-8bfd-4f06-b424-bc48141f4e78"
+        "GUID": "570af760-da3f-4265-8770-35929b8ab943"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -1108,221 +748,6 @@
     "51,0": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "자재입출고",
-            "UpdateType": "add",
-            "ShowConfirm": false,
-            "UpdateBindingValues": [
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "자재번호",
-                  "GUID": "96c09e15-9346-43b8-bcb8-2240d79ca225"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!I39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "단위",
-                  "GUID": "ec494d9e-bbb6-4446-8fec-6fe61c8ff486"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!K39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "설계량",
-                  "GUID": "f1f93c56-6883-455c-aa28-7402494896a3"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!L39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "반입량",
-                  "GUID": "119c2e4e-5760-417f-9075-51d1de056b99"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!M39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "사용량",
-                  "GUID": "8ac91d1a-9eca-4a3d-b126-af7d882825ea"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!Q39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재입출고",
-                  "ColumnName": "구매일",
-                  "GUID": "2b6b2164-3789-4b3e-9b6f-24ce9ad6dbbe"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!B6"
-                }
-              }
-            ]
-          },
-          {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "자재_",
-            "ShowConfirm": false,
-            "RowsToUpdate": 1,
-            "RowsToUpdateCondition": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "자재_",
-                "ColumnName": "ID",
-                "GUID": "21acb35a-eb4e-4f9e-a344-1df759b56a54"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=공사일보!I39"
-              }
-            },
-            "UpdateBindingValues": [
-              {
-                "BindingInfo": {
-                  "TableName": "자재_",
-                  "ColumnName": "반입누계량",
-                  "GUID": "6526579b-d792-4cb9-a240-bb0bcf3b8b26"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!T39"
-                }
-              },
-              {
-                "BindingInfo": {
-                  "TableName": "자재_",
-                  "ColumnName": "잔존량",
-                  "GUID": "1a772082-c736-4cd4-aa01-de9fdd45cbd8"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=공사일보!U39"
-                }
-              }
-            ]
-          },
-          {
-            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-            "ConditionAndCommandPairList": [
-              {
-                "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
-                  "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
-                    "cellLocations": [
-                      {
-                        "SerializeProperty": "=공사일보!I40"
-                      }
-                    ]
-                  },
-                  "value": "%Null%",
-                  "compareType": 1
-                },
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "자재입출고",
-                    "UpdateType": "add",
-                    "ShowConfirm": false,
-                    "UpdateBindingValues": [
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "자재번호",
-                          "GUID": "1ca9f381-70a6-425f-80e2-809410c6d841"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!I40"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "단위",
-                          "GUID": "b5b8931a-a5e1-4ec6-96b5-f8fe34c3e543"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!K40"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "설계량",
-                          "GUID": "b7b1a4de-1e79-44df-af72-9eb47cbc4838"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!L40"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "반입량",
-                          "GUID": "260485ce-8967-4135-bad7-cfc871d89c4b"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!M40"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "사용량",
-                          "GUID": "4eb4cd8b-ec88-49c4-86cb-4f874d560a3d"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!Q40"
-                        }
-                      },
-                      {
-                        "BindingInfo": {
-                          "TableName": "자재입출고",
-                          "ColumnName": "구매일",
-                          "GUID": "f56b5fed-5cf8-4696-b352-96411522e88d"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=공사일보!B6"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "ID": "39ec5081-12f1-4f07-a99b-1ea631684c80"
-              }
-            ]
-          }
-        ],
         "Text": "저장",
         "TemplateKey": "_RS_Main1"
       }
@@ -2812,7 +2237,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 12,
+        "Formatter": 2,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -2838,22 +2263,6 @@
         "BorderTop": 2,
         "BorderLeft": null,
         "BorderRight": 1
-      },
-      {
-        "FontSize": 10.666666666666666,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 2,
-        "BorderTop": 2,
-        "BorderLeft": 1,
-        "BorderRight": null
       },
       {
         "FontSize": 10.666666666666666,
@@ -2946,7 +2355,23 @@
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Strikethrough": false,
-        "BorderBottom": 1
+        "BorderBottom": 1,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
       },
       {
         "FontSize": 12.0,
@@ -2968,47 +2393,66 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
+        "Formatter": 17,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Strikethrough": false,
         "BorderBottom": 1,
-        "BorderLeft": 1
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 11,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 18,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1
+        "BorderLeft": 1,
+        "BorderRight": null
       },
       {
         "FontSize": 12.0,
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 12,
+        "Formatter": 17,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderLeft": 1
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 17,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 17,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 6,
+        "Foreground": 1,
+        "Formatter": 17,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3023,7 +2467,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 19,
+        "Formatter": 18,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3105,10 +2549,26 @@
         "Strikethrough": false,
         "BorderBottom": 1,
         "BorderTop": 1,
-        "BorderLeft": 2
+        "BorderLeft": 2,
+        "BorderRight": null
       },
       {
-        "FontFamily": 17,
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
         "FontSize": 12.0,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3120,7 +2580,7 @@
         "WordWrap": false,
         "Strikethrough": false,
         "BorderBottom": 1,
-        "BorderTop": null,
+        "BorderTop": 1,
         "BorderLeft": 1,
         "BorderRight": 1
       },
@@ -3129,7 +2589,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 11,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3137,28 +2597,62 @@
         "Strikethrough": false,
         "BorderBottom": 1,
         "BorderTop": 1,
-        "BorderLeft": 1
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 18,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1
+        "BorderLeft": 1,
+        "BorderRight": null
       },
       {
         "FontSize": 12.0,
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 12,
+        "Formatter": 19,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 19,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 19,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 6,
+        "Foreground": 1,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3202,23 +2696,6 @@
         "BorderRight": 2
       },
       {
-        "FontFamily": 14,
-        "FontSize": 13.333333015441895,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3248,89 +2725,6 @@
         "BorderBottom": 1,
         "BorderTop": 1,
         "BorderLeft": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 21,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 1
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 11,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 13.333333015441895,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 17,
-        "FontSize": 13.333333015441895,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
       },
       {
         "FontSize": 11.333333015441895,
@@ -3351,73 +2745,9 @@
       {
         "FontSize": 12.0,
         "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 21,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 12,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3432,6 +2762,38 @@
         "FontSize": 12.0,
         "FontStyle": 0,
         "FontWeight": 6,
+        "Foreground": 1,
+        "Formatter": 19,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 21,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Strikethrough": false,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 12.0,
+        "FontStyle": 0,
+        "FontWeight": 0,
         "Foreground": 1,
         "Formatter": 21,
         "TextIndent": 0,
@@ -3453,54 +2815,6 @@
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 22,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": true,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 6,
-        "Foreground": 1,
-        "Formatter": 21,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": 1
-      },
-      {
-        "FontSize": 12.0,
-        "FontStyle": 0,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 23,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
         "WordWrap": false,
         "Strikethrough": false,
         "BorderBottom": 1,
@@ -3513,7 +2827,7 @@
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3529,7 +2843,7 @@
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3624,7 +2938,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 10,
         "VerticalAlignment": 3,
@@ -3640,7 +2954,7 @@
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3656,7 +2970,7 @@
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3672,7 +2986,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 22,
+        "Formatter": 21,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3688,7 +3002,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 22,
+        "Formatter": 21,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3704,7 +3018,7 @@
         "FontStyle": 0,
         "FontWeight": 6,
         "Foreground": 1,
-        "Formatter": 21,
+        "Formatter": 19,
         "TextIndent": 0,
         "HorizontalAlignment": 10,
         "VerticalAlignment": 3,
@@ -3720,7 +3034,7 @@
         "FontStyle": 0,
         "FontWeight": 0,
         "Foreground": 1,
-        "Formatter": 23,
+        "Formatter": 22,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -3748,7 +3062,7 @@
         "BorderRight": 2
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3765,7 +3079,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3782,7 +3096,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3799,7 +3113,7 @@
         "BorderRight": 0
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 12.0,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3828,7 +3142,7 @@
         "Strikethrough": false
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3845,7 +3159,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3862,7 +3176,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3879,7 +3193,7 @@
         "BorderRight": 0
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3896,7 +3210,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3913,7 +3227,7 @@
         "BorderRight": 1
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3941,7 +3255,24 @@
         "Foreground": 24
       },
       {
-        "FontFamily": 17,
+        "FontFamily": 23,
+        "FontSize": 13.333333015441895,
+        "FontStyle": 0,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 14,
         "FontSize": 13.333333015441895,
         "FontStyle": 0,
         "FontWeight": 0,
@@ -3977,13 +3308,13 @@
         "굴림",
         "[AUTO]#,###.0",
         "[AUTO]###\\ \"일\"",
-        "Body",
         "[AUTO]_-* #,##0.000_-;\\-* #,##0.000_-;_-* \"-\"_-;_-@_-",
         "[AUTO]#,##0.000_);[Red]\\(#,##0.000\\)",
-        "[AUTO]#,##0_);[Red]\\(#,##0\\)",
         "[AUTO]_-* #,##0_-;\\-* #,##0_-;_-* \"-\"_-;_-@_-",
+        "[AUTO]#,##0_);[Red]\\(#,##0\\)",
         "[AUTO]_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"_-;_-@_-",
         "[AUTO]#,##0.0_);[Red]\\(#,##0.0\\)",
+        "Body",
         "Background 1 0",
         "돋움",
         "Bottom"
@@ -4486,296 +3817,293 @@
       "37,11": 108,
       "37,12": 109,
       "37,13": 110,
-      "37,14": 111,
+      "37,14": 109,
       "37,15": 110,
-      "37,16": 112,
+      "37,16": 111,
       "37,17": 108,
-      "37,18": 113,
-      "38,0": 114,
-      "38,1": 115,
-      "38,2": 115,
-      "38,3": 115,
-      "38,4": 115,
-      "38,5": 115,
-      "38,6": 115,
-      "38,7": 116,
-      "38,8": 117,
-      "38,9": 63,
+      "37,18": 112,
+      "38,0": 113,
+      "38,1": 114,
+      "38,2": 114,
+      "38,3": 114,
+      "38,4": 114,
+      "38,5": 114,
+      "38,6": 114,
+      "38,7": 115,
+      "38,8": 116,
+      "38,9": 117,
       "38,10": 118,
       "38,11": 119,
       "38,12": 120,
       "38,13": 63,
       "38,14": 121,
-      "38,15": 63,
-      "38,16": 122,
-      "38,17": 123,
-      "38,18": 124,
+      "38,15": 122,
+      "38,16": 123,
+      "38,17": 124,
+      "38,18": 125,
       "38,21": 79,
-      "39,0": 125,
-      "39,1": 126,
-      "39,2": 126,
-      "39,3": 126,
-      "39,4": 126,
-      "39,5": 126,
-      "39,6": 126,
-      "39,7": 127,
-      "39,8": 128,
-      "39,9": 73,
-      "39,10": 129,
-      "39,11": 130,
-      "39,12": 120,
-      "39,13": 63,
-      "39,14": 131,
-      "39,15": 63,
-      "39,16": 132,
-      "39,17": 133,
-      "39,18": 134,
-      "39,19": 135,
+      "39,0": 126,
+      "39,1": 127,
+      "39,2": 127,
+      "39,3": 127,
+      "39,4": 127,
+      "39,5": 127,
+      "39,6": 127,
+      "39,7": 128,
+      "39,8": 129,
+      "39,9": 130,
+      "39,10": 131,
+      "39,11": 132,
+      "39,12": 133,
+      "39,13": 73,
+      "39,14": 134,
+      "39,15": 135,
+      "39,16": 136,
+      "39,17": 137,
+      "39,18": 138,
       "39,21": 79,
       "40,0": 69,
-      "40,1": 136,
-      "40,2": 136,
-      "40,3": 136,
-      "40,4": 136,
-      "40,5": 136,
-      "40,6": 136,
-      "40,7": 137,
-      "40,8": 128,
-      "40,9": 73,
-      "40,10": 129,
-      "40,11": 138,
-      "40,12": 139,
-      "40,13": 140,
-      "40,14": 131,
-      "40,15": 63,
-      "40,16": 132,
-      "40,17": 133,
-      "40,18": 134,
-      "40,19": 135,
+      "40,1": 139,
+      "40,2": 139,
+      "40,3": 139,
+      "40,4": 139,
+      "40,5": 139,
+      "40,6": 139,
+      "40,7": 140,
+      "40,8": 129,
+      "40,9": 130,
+      "40,10": 131,
+      "40,11": 132,
+      "40,12": 133,
+      "40,13": 73,
+      "40,14": 134,
+      "40,15": 135,
+      "40,16": 136,
+      "40,17": 137,
+      "40,18": 138,
       "40,21": 79,
       "41,0": 69,
-      "41,1": 136,
-      "41,2": 136,
-      "41,3": 136,
-      "41,4": 136,
-      "41,5": 136,
-      "41,6": 136,
-      "41,7": 137,
-      "41,8": 141,
-      "41,9": 142,
-      "41,10": 129,
-      "41,11": 138,
-      "41,12": 139,
-      "41,13": 140,
-      "41,14": 131,
-      "41,15": 63,
-      "41,16": 132,
-      "41,17": 133,
-      "41,18": 143,
-      "41,19": 135,
+      "41,1": 139,
+      "41,2": 139,
+      "41,3": 139,
+      "41,4": 139,
+      "41,5": 139,
+      "41,6": 139,
+      "41,7": 140,
+      "41,8": 129,
+      "41,9": 130,
+      "41,10": 131,
+      "41,11": 132,
+      "41,12": 133,
+      "41,13": 73,
+      "41,14": 134,
+      "41,15": 135,
+      "41,16": 136,
+      "41,17": 137,
+      "41,18": 141,
       "42,0": 69,
-      "42,1": 136,
-      "42,2": 136,
-      "42,3": 136,
-      "42,4": 136,
-      "42,5": 136,
-      "42,6": 136,
-      "42,7": 137,
-      "42,8": 144,
-      "42,9": 145,
-      "42,10": 146,
-      "42,11": 147,
-      "42,12": 148,
-      "42,13": 149,
-      "42,14": 150,
-      "42,15": 151,
-      "42,16": 152,
-      "42,17": 153,
-      "42,18": 134,
+      "42,1": 139,
+      "42,2": 139,
+      "42,3": 139,
+      "42,4": 139,
+      "42,5": 139,
+      "42,6": 139,
+      "42,7": 140,
+      "42,8": 129,
+      "42,9": 130,
+      "42,10": 131,
+      "42,11": 132,
+      "42,12": 142,
+      "42,13": 143,
+      "42,14": 144,
+      "42,15": 145,
+      "42,16": 136,
+      "42,17": 146,
+      "42,18": 138,
       "42,21": 79,
       "43,0": 69,
-      "43,1": 136,
-      "43,2": 136,
-      "43,3": 136,
-      "43,4": 136,
-      "43,5": 136,
-      "43,6": 136,
-      "43,7": 137,
-      "43,8": 144,
-      "43,9": 145,
-      "43,10": 146,
-      "43,11": 147,
-      "43,12": 154,
-      "43,13": 155,
-      "43,14": 150,
-      "43,15": 151,
-      "43,16": 152,
-      "43,17": 153,
-      "43,18": 134,
+      "43,1": 139,
+      "43,2": 139,
+      "43,3": 139,
+      "43,4": 139,
+      "43,5": 139,
+      "43,6": 139,
+      "43,7": 140,
+      "43,8": 129,
+      "43,9": 130,
+      "43,10": 131,
+      "43,11": 132,
+      "43,12": 147,
+      "43,13": 148,
+      "43,14": 144,
+      "43,15": 145,
+      "43,16": 136,
+      "43,17": 146,
+      "43,18": 138,
       "43,21": 79,
       "44,0": 48,
-      "44,1": 156,
-      "44,2": 156,
-      "44,3": 156,
-      "44,4": 156,
-      "44,5": 156,
-      "44,6": 156,
-      "44,7": 157,
-      "44,8": 158,
-      "44,9": 159,
-      "44,10": 160,
-      "44,11": 161,
-      "44,12": 162,
-      "44,13": 163,
-      "44,14": 164,
-      "44,15": 165,
-      "44,16": 166,
-      "44,17": 167,
-      "44,18": 168,
+      "44,1": 149,
+      "44,2": 149,
+      "44,3": 149,
+      "44,4": 149,
+      "44,5": 149,
+      "44,6": 149,
+      "44,7": 150,
+      "44,8": 151,
+      "44,9": 152,
+      "44,10": 153,
+      "44,11": 154,
+      "44,12": 155,
+      "44,13": 156,
+      "44,14": 157,
+      "44,15": 158,
+      "44,16": 159,
+      "44,17": 160,
+      "44,18": 161,
       "44,21": 79,
-      "45,0": 169,
-      "45,1": 170,
-      "45,2": 171,
-      "45,3": 172,
-      "45,18": 173,
-      "45,21": 174,
-      "46,0": 175,
-      "46,1": 176,
-      "46,2": 177,
-      "46,18": 173,
-      "46,21": 174,
-      "47,0": 175,
-      "47,1": 176,
-      "47,2": 177,
-      "47,18": 173,
-      "47,21": 174,
-      "48,0": 178,
-      "48,1": 179,
-      "48,2": 180,
-      "48,3": 181,
-      "48,4": 181,
-      "48,5": 181,
-      "48,6": 181,
-      "48,7": 181,
-      "48,8": 181,
-      "48,9": 181,
-      "48,10": 181,
-      "48,11": 181,
-      "48,12": 181,
-      "48,13": 181,
-      "48,14": 181,
-      "48,15": 181,
-      "48,16": 181,
-      "48,17": 181,
-      "48,18": 182,
-      "48,21": 174,
+      "45,0": 162,
+      "45,1": 163,
+      "45,2": 164,
+      "45,3": 165,
+      "45,18": 166,
+      "45,21": 167,
+      "46,0": 168,
+      "46,1": 169,
+      "46,2": 170,
+      "46,18": 166,
+      "46,21": 167,
+      "47,0": 168,
+      "47,1": 169,
+      "47,2": 170,
+      "47,18": 166,
+      "47,21": 167,
+      "48,0": 171,
+      "48,1": 172,
+      "48,2": 173,
+      "48,3": 174,
+      "48,4": 174,
+      "48,5": 174,
+      "48,6": 174,
+      "48,7": 174,
+      "48,8": 174,
+      "48,9": 174,
+      "48,10": 174,
+      "48,11": 174,
+      "48,12": 174,
+      "48,13": 174,
+      "48,14": 174,
+      "48,15": 174,
+      "48,16": 174,
+      "48,17": 174,
+      "48,18": 175,
+      "48,21": 167,
       "49,21": 79,
-      "50,21": 174,
-      "51,0": 183,
-      "51,21": 174,
-      "52,21": 174
+      "50,21": 167,
+      "51,0": 176,
+      "51,21": 167,
+      "52,21": 167
     },
     "ColStyles": {
-      "0": 184,
-      "1": 184,
-      "2": 184,
-      "3": 184,
-      "4": 184,
-      "5": 184,
-      "6": 184,
-      "7": 184,
-      "8": 184,
-      "9": 184,
-      "10": 184,
-      "11": 184,
-      "12": 184,
-      "13": 184,
-      "14": 184,
-      "15": 184,
-      "16": 184,
-      "17": 184,
-      "18": 184,
-      "19": 135,
-      "20": 135,
-      "21": 135,
-      "22": 135,
-      "23": 135,
-      "24": 135,
-      "25": 135,
-      "26": 135,
-      "27": 135,
-      "28": 135,
-      "29": 135,
-      "30": 135,
-      "31": 135,
-      "32": 135,
-      "33": 135,
-      "34": 135,
-      "35": 135,
-      "36": 135,
-      "37": 135,
-      "38": 135,
-      "39": 135,
-      "40": 135,
-      "41": 135,
-      "42": 135,
-      "43": 135,
-      "44": 135,
-      "45": 135,
-      "46": 135,
-      "47": 135,
-      "48": 135,
-      "49": 135,
-      "50": 135,
-      "51": 135,
-      "52": 135,
-      "53": 135,
-      "54": 135,
-      "55": 135,
-      "56": 135,
-      "57": 135,
-      "58": 135,
-      "59": 135,
-      "60": 135,
-      "61": 135,
-      "62": 135,
-      "63": 135,
-      "64": 135,
-      "65": 135,
-      "66": 135,
-      "67": 135,
-      "68": 135,
-      "69": 135,
-      "70": 135,
-      "71": 135,
-      "72": 135,
-      "73": 135,
-      "74": 135,
-      "75": 135,
-      "76": 135,
-      "77": 135,
-      "78": 135,
-      "79": 135,
-      "80": 135,
-      "81": 135,
-      "82": 135,
-      "83": 135,
-      "84": 135,
-      "85": 135,
-      "86": 135,
-      "87": 135,
-      "88": 135,
-      "89": 135,
-      "90": 135,
-      "91": 135,
-      "92": 135,
-      "93": 135,
-      "94": 135,
-      "95": 135,
-      "96": 135,
-      "97": 135,
-      "98": 135,
-      "99": 135
+      "0": 177,
+      "1": 177,
+      "2": 177,
+      "3": 177,
+      "4": 177,
+      "5": 177,
+      "6": 177,
+      "7": 177,
+      "8": 177,
+      "9": 177,
+      "10": 177,
+      "11": 177,
+      "12": 177,
+      "13": 177,
+      "14": 177,
+      "15": 177,
+      "16": 177,
+      "17": 177,
+      "18": 177,
+      "19": 178,
+      "20": 178,
+      "21": 178,
+      "22": 178,
+      "23": 178,
+      "24": 178,
+      "25": 178,
+      "26": 178,
+      "27": 178,
+      "28": 178,
+      "29": 178,
+      "30": 178,
+      "31": 178,
+      "32": 178,
+      "33": 178,
+      "34": 178,
+      "35": 178,
+      "36": 178,
+      "37": 178,
+      "38": 178,
+      "39": 178,
+      "40": 178,
+      "41": 178,
+      "42": 178,
+      "43": 178,
+      "44": 178,
+      "45": 178,
+      "46": 178,
+      "47": 178,
+      "48": 178,
+      "49": 178,
+      "50": 178,
+      "51": 178,
+      "52": 178,
+      "53": 178,
+      "54": 178,
+      "55": 178,
+      "56": 178,
+      "57": 178,
+      "58": 178,
+      "59": 178,
+      "60": 178,
+      "61": 178,
+      "62": 178,
+      "63": 178,
+      "64": 178,
+      "65": 178,
+      "66": 178,
+      "67": 178,
+      "68": 178,
+      "69": 178,
+      "70": 178,
+      "71": 178,
+      "72": 178,
+      "73": 178,
+      "74": 178,
+      "75": 178,
+      "76": 178,
+      "77": 178,
+      "78": 178,
+      "79": 178,
+      "80": 178,
+      "81": 178,
+      "82": 178,
+      "83": 178,
+      "84": 178,
+      "85": 178,
+      "86": 178,
+      "87": 178,
+      "88": 178,
+      "89": 178,
+      "90": 178,
+      "91": 178,
+      "92": 178,
+      "93": 178,
+      "94": 178,
+      "95": 178,
+      "96": 178,
+      "97": 178,
+      "98": 178,
+      "99": 178
     },
     "SheetStyle": {
       "FontFamily": 25,
@@ -4871,26 +4199,39 @@
     "35,8,1,8",
     "35,17,1,2",
     "36,0,1,8",
+    "36,8,1,11",
     "37,0,1,3",
     "37,3,1,3",
     "37,6,1,2",
     "37,8,1,2",
+    "37,12,1,2",
+    "37,14,1,2",
     "38,0,1,3",
     "38,3,1,3",
     "38,6,1,2",
+    "38,8,1,2",
+    "38,14,1,2",
     "39,0,1,3",
     "39,3,1,3",
     "39,6,1,2",
+    "39,8,1,2",
+    "39,14,1,2",
     "40,0,1,3",
     "40,3,1,3",
     "40,6,1,2",
+    "40,8,1,2",
+    "40,14,1,2",
     "41,0,1,3",
     "41,3,1,3",
     "41,6,1,2",
+    "41,8,1,2",
+    "41,14,1,2",
     "42,0,1,3",
     "42,3,1,3",
     "42,6,1,2",
     "42,8,1,2",
+    "42,12,1,2",
+    "42,14,1,2",
     "43,0,1,3",
     "43,3,1,3",
     "43,6,1,2",
@@ -4903,6 +4244,10 @@
     "44,8,1,2",
     "44,12,1,2",
     "44,14,1,2",
+    "38,12,1,2",
+    "39,12,1,2",
+    "40,12,1,2",
+    "41,12,1,2",
     "5,1,1,7",
     "45,0,4,3",
     "51,0,3,4",
@@ -4941,24 +4286,7 @@
     "10,8,25,8",
     "10,16,25,3",
     "6,0,2,14",
-    "45,3,4,16",
-    "36,8,1,11",
-    "42,12,1,2",
-    "42,14,1,2",
-    "38,8,1,2",
-    "39,8,1,2",
-    "40,8,1,2",
-    "41,8,1,2",
-    "37,12,1,2",
-    "37,14,1,2",
-    "38,14,1,2",
-    "39,14,1,2",
-    "40,14,1,2",
-    "41,14,1,2",
-    "38,12,1,2",
-    "39,12,1,2",
-    "40,12,1,2",
-    "41,12,1,2"
+    "45,3,4,16"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4995,4 +4323,4 @@
     },
     "PageOrder": 1
   }
-}//NVz3TY6aRO99Dx49kmuX0+dtNfpdn7bbOt7pWJhPowfRlE093xlmzjHaNxn79mUXbHx4vR5s6EXb663rrR35lup3CId532ciKOo/aUcjH84jL7jNt+/e463w7wjqKlmT3qeNKNV/RR5EpuE0G/KESQ9sU0hFr55UZO0ogSnLeIIYzaHplTfJGaqTRJTeSj8NNYgwzv3fsAMZqfa9BgrLjDyFCAkcUIXKLm1hK2uJmYQDuSfUn1gvbkM502fYajJCNsfX57ZxQ+l36JRNp+oKU6yCcquuKEGpELhFmDG+RioksygFhawD7tfeuT+lfOcotx8nPe1TB5FGgUfQIykgyBC525fMGRvR7MKacNnXZ+Cm0B5/wsyGJGaXq1Ie5LR9wvp4E4d4cVB/84M+pORKGYVDGXSdpk7D2MeNDoG2PNzk43shBKuDk6EhOKtIV1FEVrzfFnAT6TGFvE7+G6e1d/xZS9bkICzTk8/93YCjOxqvq0dKF1PZctl9+875UzEXj2b1RXZDcZNrYYm8cHx2KyUpKBmPpKd4YjzPfjvqyQC5z7VhVfYpODoddyJ8ej1YdgoYzoojG47bVP3ZpolBGMm8JF3BR8ZHhdaiVTDm+BY64RNPPM7ilZaXajPhDmeqeDnAz21A8iUU0cSC3CWFfuojK6rAHNftWcWzDPAZ7wSxm4mPbSI4BWoHL1W4HoyvJ0CtlRNHcCY0JzfECdTlXcld9qCfk3t1EbaQLcXLy0ZsFpxKdAfTTM9BHeDqNlhVU3xGQmrfN4eP2tH7VjkS2bFi5rHjBYc3vmziwfVWAX3+17Sq82edS3fXjsbZ6T561+MdUZa8PQlzLc4xh1isxMlvptVu2up2IXOCrFvBPV8XzFYmVWnLQUdxd1EBQcK9DOGNrKakZUSuJ3w82njvOg==|920
+}//QAMSN4DFU3Z/Te+OtxoMs58YoF88cvPeyvWY1FOE1ZE/7Wqc0ihmsw8ylP4EBLdZNxgJ2cuxCZNfBmaE5bHtzCcG++qNwGQf8AJedX9fRlhFZ5AG7puyihc7R76IBaiUCfeCKWjkMvUCIAYflkUmT9970uBaoTb5sDq1SiH03erG3NsjiMm3BrQkUABk1pqDhiYUDRpM4vz3Uv0LOHgXO1zqw7VpnbcYw/ionRW6NbTM7qDnV+i8EtRQNZNMKvcnISSGEbKReonDEJFp6dHyTUYb+ZZdDVedQ4OzLfX2i30sQhiYIFg0mXfOc5M9wtK8N7r7nRm3Q7E31rmvCWXcw72W+QSdch+Hnw8HhKcRlS94jexYR5tFdRbaZOJnZC1+7QBEB8WCQHXbwvh5le49y34lMF+CH0Y4sv2LkYPRXhz3WV9/8zMKLmO3Mq650SqhY+AYhNAMdrNZLsoRaukRwl+8L9Yf32Rg/R7BKCMJyHqf/TjC8bFFHXoiBrhvyrG+Q9WTZrJedDmO3ACaUY11Ei9TdR1XuFaWNS0r1zgDcJ/ZmZgBEGkzPQ3NwU88SSDLmtMloLEhO9nFTSGMygA0VDOGDlH/ZzszGvr/K/Xke6L3iqYeU0TDQPGmLzCBy+28y9ZruLegEZ/deM+30PLUfS53/YBi1/x0Nzf2c/zMdsj9sXxlTJ6lpu40yhPJLIdZxfPn/Q9M4AOKEHs8Q/5iVvhHCAM6R3nrf12qZoQ5OzHcAm4mkufPwwMCsKEwT0/9DwvFxSXvOm0szEV3nxXl6/DHmhfkKkhZmFKhhzBnZ+neXdgDQ5dsE8hVOQuH4viOqw92qpcjhW7czYa4BiOVEDbOuQYO7/T2kluXeJ1nkjvRIx0vDZ+Sc2pfiCt1MWrh5FrpvkFUpMfWOQl1SoSokA==|920

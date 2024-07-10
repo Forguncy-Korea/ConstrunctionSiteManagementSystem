@@ -1,9 +1,9 @@
 {
   "Rows": {
-    "Count": 45
+    "Count": 78
   },
   "Cols": {
-    "Count": 60
+    "Count": 78
   },
   "Values": {
     "0,0": "메시어스 건설 현장 관리 시스템"
@@ -178,8 +178,8 @@
             ]
           },
           {
-            "Value": "자재사용",
-            "Text": "자재사용",
+            "Value": "자재잔량",
+            "Text": "자재잔량",
             "SelectedIconColor": "Background 1",
             "SelectedIconColorUseItemColor": true,
             "IconColorUseItemColor": true,
@@ -187,7 +187,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "자재사용"
+                "PageName": "자재잔량"
               }
             ],
             "CanVisitRoleList": [
@@ -204,7 +204,7 @@
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                "PageName": "자재목록"
+                "PageName": "자재잔량"
               }
             ],
             "CanVisitRoleList": [
@@ -222,6 +222,23 @@
               {
                 "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
                 "PageName": "공사일보"
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Value": "공사일지 확인 및 결재",
+            "Text": "공사일지 확인 및 결재",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "공사일지확인및결재"
               }
             ],
             "CanVisitRoleList": [
@@ -262,10 +279,10 @@
     }
   },
   "Spans": [
-    "5,10,35,40",
     "0,0,5,12",
-    "5,0,40,10",
-    "1,38,3,10"
+    "5,0,73,10",
+    "1,38,3,10",
+    "5,10,73,68"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
@@ -275,4 +292,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//BDcDztZQW5l2012WfP8YmIlpUr9ILUfwKV5Vav/3rwMjtHGXS/9pRDGX53hOjF1eGCWmLPn0MaZTVh5P8sGOfR1s21MD8hfbNIC1PXEwdFX1N2y/iMFKs5/vEghYPPt8WDbDM/zN96pCjU+QFAMRSW56hqjUw8UYajotZUD3CI5ne4kuZydTjpP/DaInfD1JcketbsoronewqxsAqcZseaivWRxzZwpIpMH7pUjlUvbWFnBsZeOYgvDKpvBs1VXJWI8E34kuPj+gwkBpLMvyyd8JCDAzclCaKpxnP29G8EKgDlqYI/S+PHA/jMS/9v719Sw2vBY6YzvtWjg7367qv4cAZkr5Plet3gc/WqwEgXR6uMQZen/bmsXKDjiWks/IKg9q0PwyVbuVib+FeIYSQCbfALYUSBvqMl6kXHie4pvnObeDH96yvlPpa0m2VVWwknlZHhV2raUycRhC5jbiOSuqIY18EhyWnaHL6h3Z5gpTxNnN7RcWM6PBTlwL/2DKcaw80Opp/365MO1K1/8DlOYUemBwkPJrVlSwAqy4MZPHIjKsqfFO4nrWAau1oSyjyabcjVUAN7UcU6wv/b2yjwMBYxV8kEMhIoBVEh3SwGbls9lkPCvchKeFhbrN+y/OSbs4Gaa0XPOovaCG3EhibHE5SYDGUQE5FY0TQn8RS1f1wCow4K3RKl8WqvHkXmXi2d8L9cLKjVlr9nno7yfyZF++gYnbDalRahEXbCBLizXNaYPY8IBk8OniEdpeI4oNd/Cu6yqH8uZrv73vGKwm2cYIjAVanA3CNbSRf2GBkFnyMyzNlQeyRo4JhHnkEUkxxB5y4OfbzkJmYhZYqbaCKtX6tUf5HnpuWGe7clW1SR3lgGfk+70zJhtzBUv4uCwCUDM+OOZubOnhtj1mWZNf8Q==|920
+}//ZUlS/UXjoPAQfiSvxQ3nVw2SIvY5uiuXa9byHbojAhbEAklO9mXKng+igEse0zM6HXP66jcXS+9bZ6hGR31hbsYsvDWhfAMORQ5+NUCfxCN6hdum/rRgJ1WQaoZIRV7wtaPZC8u06OdI13mWd7k3tABUS5uLSLYblWHaRN5YYwnSVyktJJpBUONP/ykxWisPnYu87f+/SgQFMAGdLmtoAn2i1MK4feNVILykqrBn+cymlZystjJtF8xxVHGjGF62I6dqXiMMk6hujQMvvO+ZwRZ1A25gq5ARxmI0PylrMzJKwPyGbQA280zmh9uQ8IBu2OftUbJgPPo2VVFtCnWW8gF/3JtpirCZgYgdE1yOdhFHTFTKTrzmkbjAhmw4z23HBTahIK+fW4U37E70HCkZm2trdQ/y66v2E4acQ3HUE8QWl7z7AONWYDUQUEZpUVmtXKVE5RssRJ7yjNpd5PBOs7DdEneu8MC2s8I6zCQ1eMlr3SuaG2fwLJr1/FOJveZKTNLAIrwt8YgDH5lH/IytUAvjpGUNs5eQT+XE2Z0f0Dzu5N7XKTq+W8cYNqHq4mqtCizypY4bPPfmW2bLMSd/BuNrjHxCf+edcSvGxnrc4oFD+YPaUsWDcI5hi+5pbAiQeY1UwlrhuO0kvuYQHWfuytyv+rZRtMZ0X/ucLhe6AG8ZbljotwnljiAbAs3dkHtGTP+C3XkpOWjamkRilyyAh6No1VJBR5dy1t4Ym7vbc87SDcIs+wUTLksLI3nv8cSig2GhVS51eaW+Gr4wfkF6Udvd27z/1yOXTEhdFfrGBaTtWqeP76p9TzoxZwiF604BNkNbZNz+jF52R4ReFGK2M3UMOhqK4CSjeIyjkkS/u7drUd+ljzjuHjd18A4rwkNkUfIOR+x7GVHEztXhOz0c1Q==|920

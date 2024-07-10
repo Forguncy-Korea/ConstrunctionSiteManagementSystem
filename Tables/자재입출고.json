@@ -1,5 +1,5 @@
 {
-  "Name": "자재",
+  "Name": "자재입출고",
   "Columns": [
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -13,9 +13,9 @@
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
+      "DatabaseColumnType": "System.Int64",
       "Name": "자재번호",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
@@ -26,32 +26,44 @@
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
+      "Name": "단위",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "Name": "설계량",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
       "Name": "자재분류",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "구매일",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "System.Int64",
+      "Name": "반입량",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "구매량",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
-    },
-    {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
-      "DatabaseColumnType": "System.String",
-      "Name": "잔존량",
-      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      "DatabaseColumnType": "System.Int64",
+      "Name": "사용량",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "배정현장",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "Name": "구매일",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
@@ -83,8 +95,19 @@
       "PrimaryTable": "현장",
       "PrimaryColumn": "현장번호",
       "ForeignSchema": null,
-      "ForeignTable": "자재",
+      "ForeignTable": "자재입출고",
       "ForeignColumn": "배정현장",
+      "RelationTypeOnDelete": 0,
+      "RelationTypeOnUpdate": 0,
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimarySchema": null,
+      "PrimaryTable": "자재_",
+      "PrimaryColumn": "ID",
+      "ForeignSchema": null,
+      "ForeignTable": "자재입출고",
+      "ForeignColumn": "자재번호",
       "RelationTypeOnDelete": 0,
       "RelationTypeOnUpdate": 0,
       "IsDetailTableRelation": false
