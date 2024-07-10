@@ -234,7 +234,16 @@
   },
   {
     "ModuleName": "PCPage/페이지2",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T09:02:16.6836648+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\페이지2.json"
+    ]
   },
   {
     "ModuleName": "Table/출역",
