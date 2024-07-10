@@ -354,5 +354,15 @@
     },
     "LockDateTime": "2024-07-10T10:46:24.8961203+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/공사일보 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T11:03:07.3669716+09:00",
+    "ModuleType": 1
   }
 ]
