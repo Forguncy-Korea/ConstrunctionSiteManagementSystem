@@ -162,7 +162,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617805+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.938313+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\근로자.json",
@@ -177,7 +177,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617826+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.9383185+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자산.json",
@@ -192,7 +192,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617838+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.9383195+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\자재.json",
@@ -207,7 +207,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617853+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.9383209+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\현장.json",
@@ -310,7 +310,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617865+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.9383218+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\출역.json",
@@ -333,7 +333,7 @@
       "UserName": "SUHWAN\\holyr",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2024-07-10T09:12:02.3617614+09:00",
+    "LockDateTime": "2024-07-10T11:36:12.9383606+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\공사일보테이블.json",
@@ -373,5 +373,16 @@
     },
     "LockDateTime": "2024-07-10T11:34:50.7777687+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/자재_잔존",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-10T11:36:12.9383072+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
