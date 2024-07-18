@@ -261,12 +261,6 @@
   },
   {
     "ModuleName": "PCPage/페이지1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SUHWAN\\holyr",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-07-12T15:59:18.243193+09:00",
     "ModuleType": 1
   }
 ]
