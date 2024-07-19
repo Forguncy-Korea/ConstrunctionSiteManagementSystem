@@ -285,7 +285,16 @@
   },
   {
     "ModuleName": "MasterPCPage/CSMS",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-19T13:59:19.0092932+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\CSMS.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/예약된 작업1",
