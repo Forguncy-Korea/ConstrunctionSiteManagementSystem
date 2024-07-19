@@ -136,7 +136,16 @@
   },
   {
     "ModuleName": "PCPage/공사일보",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SUHWAN\\holyr",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2024-07-19T14:16:59.3783389+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\공사일보.json"
+    ]
   },
   {
     "ModuleName": "PCPage/자산등록",
