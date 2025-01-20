@@ -292,16 +292,21 @@
     "5,18": "IF(AND(상태=\"반려\",최종개정인=\"대표이사\"),\"반려\",IF(상태=\"최종 승인\",\"승인\",IF(AND(상태=\"반려\",최종개정인=\"소장\"),\"반려\",\" \")))",
     "40,14": "IFERROR(ODATA(\"자재_?$select=반입누계량&$filter=ID eq \"&IF(ISBLANK(I41),\"null\",I41)),\"\")",
     "41,14": "IFERROR(ODATA(\"자재_?$select=반입누계량&$filter=ID eq \"&IF(ISBLANK(I42),\"null\",I42)),\"\")",
-    "42,14": "IFERROR(ODATA(\"자재_?$select=반입누계량&$filter=ID eq \"&IF(ISBLANK(I43),\"null\",I43)),\"\")"
+    "42,14": "IFERROR(ODATA(\"자재_?$select=반입누계량&$filter=ID eq \"&IF(ISBLANK(I43),\"null\",I43)),\"\")",
+    "6,23": "ODATA(\"공사일보테이블?$select=상태&$filter=ID eq \"&IF(ISBLANK(A1),\"null\",A1))"
   },
   "AttachInfos": {
+    "0,0": {
+      "BindingInfo": {
+        "TableName": "공사일보테이블",
+        "ColumnName": "ID",
+        "GUID": "4f55fa7a-883e-4f48-86b3-a3dffc935c5b"
+      }
+    },
     "2,16": {
       "CellType": {
         "$type": "Forguncy.ProcessBarCellType, ServerDesignerCommon",
         "TableName": "공사일보테이블",
-        "ShowCurrentAssignTo": false,
-        "ShowCurrentSate": false,
-        "ShowHistory": false,
         "DesignTimeShowState": {
           "TableName": "공사일보테이블",
           "SelectedID": "00000000-0000-0000-0000-000000000000"
@@ -369,13 +374,6 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_NewLittleRoundCorner"
-      }
-    },
-    "6,23": {
-      "BindingInfo": {
-        "TableName": "공사일보테이블",
-        "ColumnName": "FGC_State",
-        "GUID": "0823b2c8-8022-4bae-b993-2bae344ab266"
       }
     },
     "7,0": {
@@ -784,6 +782,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "7daf51c2-204b-40ec-8fc5-150e8b84778c",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "잔존량",
@@ -805,7 +804,7 @@
                 }
               }
             },
-            "ID": "26214b8dcee344449d71c3fc14b27409"
+            "ID": "56e34e1cfed447e5a205091642f68ad4"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -816,6 +815,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "2e867de9-0523-463e-8200-4d7c12051395",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "반입누계량",
@@ -837,7 +837,7 @@
                 }
               }
             },
-            "ID": "b8c212bc936a43f59da0904c940299d5"
+            "ID": "a3b8759ad2f14491860ad271c70cd647"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -951,6 +951,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "c2762661-e9ee-42d0-a2f0-a2a11587c83c",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "잔존량",
@@ -972,7 +973,7 @@
                 }
               }
             },
-            "ID": "9bdd970f46c9416f92c78afbce9422aa"
+            "ID": "9f20d5a3e4314f8dbe26af2dbb3c6c88"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -983,6 +984,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "ae14b40c-75b3-47ed-8085-f06e884c11e2",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "반입누계량",
@@ -1004,7 +1006,7 @@
                 }
               }
             },
-            "ID": "283276c974ab40a481b4db844a44fa36"
+            "ID": "29e1d1a748db4f3e8ec7e152f34cc694"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1118,6 +1120,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "6acb4fe8-ca63-4323-ae2f-4bdc48a4c2f2",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "잔존량",
@@ -1139,7 +1142,7 @@
                 }
               }
             },
-            "ID": "3ef12d119863479b9780106d055bc5a8"
+            "ID": "a2f59297c0444dadb1b7a3d086b35b8a"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1150,6 +1153,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "65bdbc0a-4bba-486b-acea-9b2dfebe63c2",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "반입누계량",
@@ -1171,7 +1175,7 @@
                 }
               }
             },
-            "ID": "b44cedea26084b88a3f9cdfcf5485c8e"
+            "ID": "a4b69ce39c934d8199b9b47c3529cf6d"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1285,6 +1289,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "9d2304c2-20b8-4d07-af1c-36d15a44f411",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "잔존량",
@@ -1306,7 +1311,7 @@
                 }
               }
             },
-            "ID": "1f69b70951aa4f5796c9f49bec49acf3"
+            "ID": "2a067e79b481435289fe07fcf2a098ed"
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1317,6 +1322,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
+                  "GUID": "2de35da6-0aea-4965-be3f-0bcc09e1f92c",
                   "BindingInfo": {
                     "TableName": "자재_",
                     "ColumnName": "반입누계량",
@@ -1338,7 +1344,7 @@
                 }
               }
             },
-            "ID": "d1160654d3ca4054aeb9af5ba653d757"
+            "ID": "1a0f17915db2444ea1a82a9247b5faf7"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1810,7 +1816,7 @@
                     ]
                   }
                 ],
-                "ID": "d7c6d4f8-4736-448c-8802-0f538df96d26"
+                "ID": "717ab5b6-f423-48ea-b810-78e07fb0adfc"
               }
             ]
           },
@@ -5405,7 +5411,6 @@
     "6,1,1,7",
     "46,0,4,3",
     "52,0,3,4",
-    "2,16,1,2",
     "11,4,1,2",
     "12,4,1,2",
     "13,4,1,2",
@@ -5459,7 +5464,8 @@
     "41,14,1,2",
     "42,14,1,2",
     "5,16,1,2",
-    "4,16,1,2"
+    "4,16,1,2",
+    "2,16,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -5479,7 +5485,8 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": []
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "공사일보테이블"
   },
   "PrintInfo": {
     "ColumnStart": 0,
@@ -5506,4 +5513,4 @@
       "Formula": "공사일보!$X$8"
     }
   ]
-}//njdZdqxOR6NSS08qsPN4Clssa1Ponm4bDJIVZHkEyj3hX3H7DBFjLVVZab5wipyzBhnHUFVBwn537C/vTHoK/5IgS/AsJ+3K6YBMpEjsGVKBT4KuVrrrvhAMriRKhN6PVc6Jm7bpZ00tY3UV/Cnpm7A1tCR33ky0PJiQwxP1OzxtGKr4/YEv2VWXGv8Vn+hE5KJf+PGLnG7wgjzLZ/9/PscHESpdOTWmnHefR4MysfyZcgzngQ/RtXg1m6kc/7lg4f+kC/mvispCwe5mnnpp2Ztu/EglazaQZLKB3clFw2d7ksk5ABJLakO7K2oqy5YNN35l7zIpJ3x5/5MFZTUo9RnzSZta0biq0WnJ9ZQX0WcoRWKjPnLwo4jViNyPn2sLENoEgtjX0iWn/t8rT6yZYiXaC4atctpdk0n5tQio8tFFTOcZoj7vA8A4wJ9ptpPlUNAY1u7x5u9OO64vUcl+qoH4i26jeOXY6jm04YV88S5PJCBsvdfyxN+hUCdIlnYtDCOZgo3EcgL6erSF1dZnWhrV2brVgXotM9In4Dbi7+gb7X14gQ4077TQUX61Ovs6RbWl+YvBdrO1eQQBaydtPzCHFwmjGklqf5xj/6r2ZGQRV/7BvoXcMs9nMlg3ks09cSHy3ASpNBB62jLQbZEzWx/HI2d7JP6UAfWB/SqXRmtJA/VDFwIXlNOcDc0ZZI3w7TWxkapHe1l8a53mtMG8+FEpM/JzaYu5eBZZ9URNX+h9i6nOiH5RsAa9nMs2CqmzISgulbvYTcCRNk/eBgNY1MUA2AYtpIb1PBUmFHhJUX/X808wbJ5gEqKswRfrMvR3hF8JdeIuDf3hkABQgJdCCNd0TlZIcFxAs0szRQrPvDzTKc+OEUe4dlyIWf/MkZPFtTkFz0kE3HqP2MQAUD6Uig==|920
+}//yISrQrbpkbxjkoNDqSZxhib7/d60gSS2dOSbSpbv5CQn7eFMbnoh/fmBHnQHJKWNlsMAcSTCoE8iEwBn0HC+jsI7DsgG8u7KV+VbLpReCvZtUU8/MUD7y+vzhw6S5OIARTJtg+MSqtOKdNDnJGwFFsOQWuEcWXUZtLytcQXcV8kKU9ndbRXIldO3sh/MxcwJnksh/C5XFG7uZFaefowUncKTc45OLWHUUtmM37IAh6vu7AIDkidhsmjRRq/zdsuPPzWmYSTiBmg1+aX2M0G4FQ3/JcurDzWJFFALN8omHkja1t4iB56oIi4qxwatdt/hhfKMOnYxgFJuPeLWKsKjhYTl7D5ah8acBhQnSYbLEZLchkcx90guWwMMye/jftlR+3XdQT99PdtkqNJw8T+o6VpKe9BuSlmzFh6DOFGrgNvhFS8Zy4sEwbnV5247UzDhwA+dIzqVl8XvGsZl9YI2Dz/Qs9iSgHSu+BFzHL6wxx4pBj96caJaLK5T4G/R/InxZFEoKzXaWnjoIFwj1L+l8U2ns09uZZO8UMq9OzrjFhRYWpvJE/lYCP+b6rorLYL7byQV/G7zidhYVLy4kzLIwZXhDFdYn/iswDHb+ZYwqTAX8F7go3r+/vY9YmyyStuxPKCBdEKt0Jd/6UZ35HpeURG1SUjp8e62JPL6yJtKAuXT05nO1lXjJ4qYwI4ygz4lsp1J0A/Fyshm9bdlPqjNBfmLjEu/poEnJt0YCxk8xgywAFDo+c2klXnU+x1K5u/lSYpWdtHDch7MFeToIKpT2YF5lTuChYi90TnSsDVi3rtjJE8KpBsAz0jN0D0Lq0n901Y46FLCn8iV4pssdw9eyz+YxmTx0JgZH9ZAUtBMX7bIzn0rQ/M35YDkKGjtLV8u3W7gcw1QnACIaTZA6KcNaw==|920

@@ -2,7 +2,7 @@
   "Name": "자재_",
   "Columns": [
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
       "Unique": true,
       "AutoIncrement": true,
@@ -12,51 +12,51 @@
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "자재명",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "자재분류",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Name": "반입누계량",
       "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.Int64",
       "Name": "잔존량",
       "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "배정현장",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_Creator"
     },
     {
-      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_CreateDate"
     },
     {
-      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_LastModifier"
     },
     {
-      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_LastModifyDate"
     }
@@ -64,5 +64,6 @@
   "PrimaryKey": [
     "ID"
   ],
-  "Relations": []
+  "Relations": [],
+  "Indexes": []
 }

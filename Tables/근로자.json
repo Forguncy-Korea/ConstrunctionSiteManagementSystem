@@ -2,7 +2,7 @@
   "Name": "근로자",
   "Columns": [
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "Required": true,
       "Unique": true,
       "AutoIncrement": true,
@@ -12,88 +12,88 @@
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.Int64",
       "Name": "사원번호",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "이름",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.Double",
       "Name": "생년월일",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "국적",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "직급",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "직종",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.AttachmentBindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.AttachmentBindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "근로계약서",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "일급",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "근로형태",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "배정현장",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "System.String",
       "Name": "f",
       "ColumnType": "System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
-      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_Creator"
     },
     {
-      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_CreateDate"
     },
     {
-      "$type": "Forguncy.Model.Tables.UserExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_LastModifier"
     },
     {
-      "$type": "Forguncy.Model.Tables.DateExtraBingingColumn, ServerDesignerCommon",
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
       "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "Name": "FGC_LastModifyDate"
     }
@@ -103,15 +103,12 @@
   ],
   "Relations": [
     {
-      "PrimarySchema": null,
       "PrimaryTable": "현장",
       "PrimaryColumn": "현장번호",
-      "ForeignSchema": null,
       "ForeignTable": "근로자",
       "ForeignColumn": "배정현장",
-      "RelationTypeOnDelete": 0,
-      "RelationTypeOnUpdate": 0,
       "IsDetailTableRelation": false
     }
-  ]
+  ],
+  "Indexes": []
 }
