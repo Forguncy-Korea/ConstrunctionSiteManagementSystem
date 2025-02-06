@@ -165,17 +165,7 @@
   },
   {
     "ModuleName": "PCPage/출역확인",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "AzureAD\\NancyKim",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-02-06T14:59:55.8399845+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\출역확인.json",
-      "Pages\\출역확인.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/자산등록",
